@@ -50,7 +50,7 @@ def fmt_time(m):
     m = int(m)
     if m >= 60:
         h, r = divmod(m, 60)
-        return f"{h}h" + (f" {r}m" if r else "")
+        return f"{h}h" + (f"{r}m" if r else "")
     return f"{m}m"
 
 
