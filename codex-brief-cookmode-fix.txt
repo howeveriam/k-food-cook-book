@@ -1,0 +1,9 @@
+K-food cookbook frontend fix — small CSS/JS changes in ~/workspace/kindle-cookbook/prototype/template.html, then rebuild prototype/guun-bossam.html with build_page.py (same build flow as before; the built page must keep embedded base64 fonts and all SSR behavior unchanged).
+
+User feedback from the live iPhone site (cooking-mode dialog):
+
+1. Close button box: the "Close" button in the cooking-mode header (.cook-head #cook-exit) currently shows an orange square box/outline around it (iOS Safari leaves :focus-visible on it after tap; rule is button:focus-visible{outline:2px solid var(--orange)}). Make it a plain text-only button with NO visible box/border/outline in any state — normal, hover, active, and especially :focus-visible (touch users land on focus without keyboard). No other button styling changes: keep the orange text color and size as-is.
+
+2. Previous button on first step: in the cooking-mode nav (.cook-nav #cook-prev), when on step 1 of N the Previous button currently renders as a disabled gray ghost. Hide it completely on step 1 instead (display:none via the [hidden] attribute pattern already used in the codebase, e.g. [hidden]{display:none!important}). When on step 2+, show it normally again. Keep the layout tidy: the Next button should not jump around — keep the .cook-nav grid/flex structure so Next keeps its position whether Previous is hidden or visible.
+
+Do NOT change: anything about the Next/Close dialog behavior, the last-step handling, or any other styling. After editing template.html, rebuild prototype/guun-bossam.html via build_page.py and confirm the output still contains the embedded fonts and the responsive media query @media(max-width:480px).
