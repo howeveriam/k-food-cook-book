@@ -50,8 +50,8 @@ def fmt_time(m):
     m = int(m)
     if m >= 60:
         h, r = divmod(m, 60)
-        return f"{h} hr" + (f" {r} mins" if r else "s")
-    return f"{m} min" if m == 1 else f"{m} mins"
+        return f"{h}h" + (f" {r}m" if r else "")
+    return f"{m}m"
 
 
 def esc(s):
@@ -133,7 +133,7 @@ def build(recipe_path: str, out_path: str) -> None:
         "__CHIPS__": chips,
         "__ABOUT_PREVIEW__": esc(recipe["about_dish"]["preview"]),
         "__ABOUT_FULL__": about_full,
-        "__PREP__": fmt_time(recipe["prep_minutes"]).replace(" mins", " min"),
+        "__PREP__": fmt_time(recipe["prep_minutes"]),
         "__COOK__": fmt_time(recipe["cook_minutes"]),
         "__REST__": fmt_time(recipe.get("rest_minutes") or 0),
         "__SERVINGS__": str(base),
