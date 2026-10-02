@@ -16,7 +16,6 @@
 | 폴더 | 내용 | 용도 |
 |---|---|---|
 | `steps_veo/step-N-16x9.png` | 16:9 패딩본 (흰 여백 좌우) | Veo API image-to-video 입력용 |
-| `steps_9x16/step-N-9x16.png` | 9:16 패딩본 (흰 여백 상하, 1536×2731) | 구글포토 앱 photo-to-video 입력용 |
 
 ## 완성된 스텝 영상
 
