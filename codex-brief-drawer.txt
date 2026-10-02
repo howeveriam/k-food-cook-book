@@ -1,0 +1,16 @@
+K-food cookbook frontend — drawer-like expand/collapse interactions (LOCAL BUILD ONLY, DO NOT COMMIT OR PUSH).
+
+Working tree already has uncommitted cooking-mode animation changes in ~/workspace/kindle-cookbook/prototype/template.html — build on top of them, do not revert or restyle anything.
+
+User request: the "More" button (About section, #about-toggle) and the "Show all ingredients" button (#show-all) currently swap hidden content instantly. Make both feel like a drawer opening: the expanding content's height animates smoothly, pushing the content below down gradually instead of jumping.
+
+Details:
+1. About "More"/"Close": the full about text (#about-full) should expand/collapse with a smooth height animation (~400ms, ease-out feel). The times container and everything below must glide down/up, not jump.
+2. "Show all ingredients"/"Show fewer": rows 6-11 of the ingredient list should reveal/conceal with the same smooth drawer-like height animation, pushing Nutrition Facts and below down/up smoothly.
+3. Technique: use the CSS grid `grid-template-rows: 0fr -> 1fr` transition trick (or an equivalent jank-free height animation). Inner content needs overflow:hidden + min-height:0. Must work with the existing SSR markup (extra rows carry the `hidden` attribute, about-full is hidden) — keep no-JS content intact.
+4. Respect prefers-reduced-motion: when the OS setting is on, both toggles must be instant (no animation).
+5. Keep the existing button labels, chevron rotation, colors, and spacing exactly as-is. No other layout or behavior changes.
+
+After editing template.html, rebuild prototype/guun-bossam.html with build_page.py and confirm the output still contains the embedded base64 fonts and the @media(max-width:480px) rule.
+
+IMPORTANT: do not git commit, do not git push. Leave the changes uncommitted in the working tree — the user reviews the interaction before anything goes live.

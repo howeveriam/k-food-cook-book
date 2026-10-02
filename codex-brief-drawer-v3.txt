@@ -1,0 +1,17 @@
+K-food cookbook frontend — drawer motion fix: the problem is MOVEMENT, not fade (LOCAL BUILD ONLY, DO NOT COMMIT OR PUSH).
+
+User feedback on the current implementation: "it's not a fade-in problem, it's a movement problem." The expanding content must visibly MOVE — right now the rows are static and just get uncovered by the growing container, which feels dead.
+
+Change in ~/workspace/kindle-cookbook/prototype/template.html (working tree has the v2 Base Web-style fade work — keep the fade, ADD movement):
+
+1. "Show all ingredients" drawer: the 6 extra rows must SLIDE DOWN into place as the drawer opens — each row translates from translateY(-16px) to translateY(0) with the opacity fade, slightly staggered (about 40ms apart, top row first), 500ms cubic-bezier(0.22,1,0.36,1), coordinated with the container height expansion. It should feel like the rows travel downward into their spots, like a drawer sliding open — not like a curtain lifting off static rows.
+
+2. "More"/"Close" about section: the full text block slides down the same way (translateY(-12px)→0) with the fade, 500ms cubic-bezier(0.22,1,0.36,1), coordinated with the height animation.
+
+3. On collapse: reverse — rows/text slide back up and fade as the container closes.
+
+4. Keep: 500ms cubic-bezier(0.22,1,0.36,1) timing, 200ms-delayed opacity fade layer, chevron rotation, labels, colors, spacing, SSR markup, no-JS fallback, cooking-mode changes, prefers-reduced-motion instant behavior.
+
+After editing, rebuild prototype/guun-bossam.html with build_page.py and confirm embedded base64 fonts + @media(max-width:480px) intact.
+
+IMPORTANT: do not git commit, do not git push. User reviews before anything goes live.

@@ -1,0 +1,26 @@
+K-food cookbook — per-step ACTION animations for cooking mode (LOCAL BUILD ONLY, DO NOT COMMIT OR PUSH).
+
+The user rejected the Ken Burns zoom approach: each step's visual must actually SHOW THE ACTION of that step as a short looping animation, not a static illustration with camera motion. (Working tree has the uncommitted zoom changes in prototype/template.html — replace that approach with this one.)
+
+Recipe: Grilled Bossam, 7 steps. For each step, produce a short looping animation (2-4 seconds, seamless loop) in the SAME watercolor illustration style as the existing step images, showing:
+
+1. A wooden spoon scooping doenjang (Korean fermented soybean paste) and stirring/dissolving it into the broth in the pot — the spoon visibly moves, paste dissolves into the liquid.
+2. The pot over high heat, braising liquid coming to a rolling boil — bubbles rising, steam.
+3. Pork belly chunks being rinsed under water / patted dry with paper towels.
+4. Pork chunks searing in a heavy pan, fatty side down — fat rendering, surfaces turning golden brown.
+5. Seared pork chunks being lowered into the boiling braising liquid, fully submerging.
+6. Pork boiling in the pot — vigorous bubbles around the meat.
+7. Pork lifted out of the liquid, sliced thick, arranged for serving.
+
+Hard requirements:
+- Visual consistency: same pot, same pan, same wooden spoon, same watercolor style across ALL steps. Check ~/workspace/kindle-cookbook/assets/illust/props/INDEX.md for the registered prop references and keep them identical. Step N's animation must continue step N-1's state (ingredients/liquid don't vanish between steps).
+- Web-suitable format: short looping MP4 (<video autoplay muted loop playsinline>) or looping animated WebP — whichever looks best at a small file size for mobile. Keep total page weight sane; compress aggressively but keep the watercolor readable.
+- Wire into prototype/template.html cooking-mode dialog (#cook): replace the <img id="cook-img"> approach with the animation, keeping the rounded-corner clipping, aspect ratio, and spacing identical.
+- prefers-reduced-motion: when the OS setting is on, show a STATIC poster frame (first frame) instead of the animation — no motion at all.
+- No-JS/SSR: the static step images must remain as fallback content in the markup.
+
+Implementation method is your choice (AI video generation if available, or 3-5 generated keyframes assembled into a loop — pick whatever yields the best motion quality). Report which method you used and the final file sizes.
+
+After wiring, rebuild prototype/guun-bossam.html with build_page.py and confirm the embedded base64 fonts and the @media(max-width:480px) rule are intact.
+
+IMPORTANT: do not git commit, do not git push. The user reviews all image/video work before anything goes live.

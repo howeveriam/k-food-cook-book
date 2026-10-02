@@ -1,0 +1,15 @@
+K-food cookbook frontend — cooking-mode step image animation (LOCAL BUILD ONLY, DO NOT COMMIT OR PUSH).
+
+In ~/workspace/kindle-cookbook/prototype/template.html, cooking-mode dialog (#cook, image #cook-img):
+
+1. Subtle slow zoom on the step illustration: scale 1.0 -> 1.05 over 4 seconds, ease-in-out, infinite alternate (4s in, 4s out), so it feels alive while a step is viewed for minutes. Keep it calm and barely noticeable — this is a watercolor illustration in a cooking app, nothing bouncy or playful.
+
+2. Soft crossfade when the step image changes (step navigation swaps #cook-img src): brief opacity fade (~300ms) so the swap doesn't pop.
+
+3. Respect prefers-reduced-motion: when the OS setting is on, ALL of this animation must be fully disabled (static image, instant swap).
+
+4. Implementation notes: use CSS keyframes on #cook-img (transform scale; keep border-radius and aspect-ratio rendering intact — use overflow hidden on a wrapper if the zoom would bleed outside the rounded corners). Restart the zoom cycle from 1.0 each time the step changes.
+
+Do NOT change anything else: no layout, color, button, dialog behavior, or timing changes. After editing template.html, rebuild prototype/guun-bossam.html with build_page.py and confirm the output still contains the embedded base64 fonts and the @media(max-width:480px) rule.
+
+IMPORTANT: do not git commit, do not git push. Leave the changes uncommitted in the working tree — the user reviews the animation before anything goes live.
