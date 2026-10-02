@@ -1,0 +1,32 @@
+K-food cookbook frontend — restyle ONLY the cooking-mode timer UI per Figma spec (LOCAL BUILD ONLY, DO NOT COMMIT OR PUSH).
+
+Spec: read ~/workspace/kindle-cookbook/design-spec/timer-SPEC.md completely and follow it exactly. Figma node was 51-782 (idle state only: 40:00, play button, "Start timer").
+
+Current timer markup in prototype/template.html (cooking dialog):
+<div class="timer-box" id="timer-box" hidden><div class="timer-display" id="timer-display" role="timer"></div><div class="timer-status" id="timer-status" role="status"></div><div class="timer-actions"><button class="secondary" id="timer-toggle">Start timer</button><button class="secondary" id="timer-reset">Reset</button></div></div>
+
+New structure (keep all four IDs: #timer-box, #timer-display, #timer-status, #timer-toggle, #timer-reset):
+- Card: width 100%, height 98px, background #F9F9F9, border-radius 8px, no border/shadow. Three columns: reset | countdown | play/pause.
+- Left column: 40×40 circle button #F48B00 with white circular-arrow SVG icon (20×20), label "Reset" below (Inter 400 12px #707070, 2px gap under circle).
+- Center: #timer-display, 36px, weight 500, #232323, tabular-nums, centered. (Spec says Roboto Medium; the page only embeds Inter + Playfair — use Inter 500 as the closest available, do NOT add new font files.)
+- Right column: 40×40 circle button #F48B00 with white play-triangle SVG icon (15×15), label below showing state text: "Start timer" / "Pause" / "Resume" (Inter 400 12px #707070).
+- Layout: button centers 99px left/right of card center; buttons and countdown share a center line (content sits slightly high, per spec). Labels sit BELOW the circles, not inside.
+- #timer-status: keep in DOM for screen readers (role=status, aria-live=polite) but visually hidden (sr-only). It has no visual place in the design.
+
+Functionality (must keep working exactly as now):
+- drawTimer(): update #timer-display to M:SS. INSTEAD of setting #timer-toggle textContent (which would wipe the SVG), update the label span under the toggle button AND swap the button's icon: play triangle when idle/paused, pause bars (two white rects, same 15px style) when running. Update the button's aria-label to match.
+- #timer-toggle onclick: pause/resume/start logic unchanged. #timer-reset onclick=resetTimer unchanged. tick(), stopTimer(), beep(), wake lock all unchanged.
+- Done state (00:00): display shows 00:00, #timer-status announces "Timer finished" (existing behavior), toggle returns to play icon + "Start timer" label.
+- resetTimer() is called on every showStep; the timer appears on step 6 (40 min) and step 7 (10 min) sharing the same #timer-box — make sure the reset/state logic works when switching between these steps.
+- Hover/focus (not in Figma, use sparingly): hover #E07F00, active scale(.95), focus-visible 2px #F48B00 outline.
+
+Icons: draw inline SVGs (no external files). Play: white triangle. Pause: two white bars. Reset: white circular arrow (reload style), stroke-based.
+
+Constraints:
+- Change ONLY the timer box markup/CSS/JS. Do NOT touch videos, drawer, about, cooking dialog, or anything else.
+- Keep the existing reduced-motion behavior sane (no animation on the timer anyway).
+- Mobile: the dialog is max-width 375px; the timer card must fit and look right at 360-393px widths.
+
+After editing, rebuild with: python3 scripts/build_page.py recipes/guun-bossam.json prototype/guun-bossam.html (script is in scripts/, NOT prototype/). Confirm: JS syntax valid, base64 fonts embedded, @media(max-width:480px) intact.
+
+IMPORTANT: do not git commit, do not git push. Local build only.
