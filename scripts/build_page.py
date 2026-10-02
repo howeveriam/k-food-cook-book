@@ -144,6 +144,12 @@ def build(recipe_path: str, out_path: str) -> None:
     }
     for icon in (ROOT / "design-spec/icons").glob("*.svg"):
         subs["__ICON_" + icon.stem.upper().replace("-", "_") + "__"] = icon.read_text()
+    difficulty = max(0, min(5, int(recipe.get("difficulty", 0))))
+    stars = "".join(
+        subs["__ICON_STAR_FILLED__"] if i < difficulty else subs["__ICON_STAR_EMPTY__"]
+        for i in range(5)
+    )
+    subs["__DIFFICULTY__"] = stars
     fonts = []
     for family, filename, weight in [("Inter", "inter-latin.woff2", "400 700"),
                                      ("Playfair Display", "playfair-display-latin.woff2", "700")]:

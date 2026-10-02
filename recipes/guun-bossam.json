@@ -2,6 +2,7 @@
   "base_servings": 6,
   "category": "mains",
   "cook_minutes": 70,
+  "difficulty": 3,
   "id": "guun-bossam",
   "illustration": "assets/illust/guun-bossam-hero-v2.png",
   "ingredients": [
