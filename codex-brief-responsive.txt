@@ -1,0 +1,24 @@
+작업 디렉토리: /home/hatch/workspace/kindle-cookbook
+
+## 작업: 레시피 페이지를 반응형으로 만들어라
+
+현재 `prototype/template.html`의 CSS는 페이지를 375px로 고정하고 가운데 정렬한다
+(`.page{max-width:375px;margin:auto}`, `.bottom-bar`와 `.cook` 다이얼로그도 max-width:375px).
+375px보다 넓은 아이폰(393px, 430px 등)에서는 24px 패딩 바깥에 불필요한 여백이 생긴다.
+
+CSS만 수정하라 (디자인 토큰·간격·겹침·그림자·폰트는 절대 바꾸지 말 것):
+- 뷰포트 너비 480px 이하: `.page`, `.bottom-bar`, `.cook` 모두 유동폭(뷰포트 100%)으로.
+  기존 24px 좌우 패딩은 유지하고, 가운데 정렬로 인한 추가 여백이 생기지 않게 할 것.
+- 뷰포트 너비 480px 초과: 기존 동작 유지 — 가운데 정렬된 375px max-width 컬럼.
+
+## 빌드
+`python3 scripts/build_page.py recipes/guun-bossam.json prototype/guun-bossam.html`
+
+## 검증 (헤드리스 Chromium)
+- 375px, 393px, 430px 너비 스크린샷: 좌우 여백이 정확히 24px이고 콘텐츠가 꽉 차는지 확인
+- 1280px 너비 스크린샷: 가운데 정렬된 375px 컬럼 유지되는지 확인
+- 페이지 에러(콘솔 에러) 없는지 확인
+- 스크린샷은 /tmp/resp-375.png, /tmp/resp-393.png, /tmp/resp-430.png, /tmp/resp-1280.png 로 저장
+
+## 보고에 포함할 것
+- 바꾼 CSS 내용, 빌드 결과(파일 크기), 각 너비에서의 확인 결과, 스크린샷 경로
