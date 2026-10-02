@@ -1,0 +1,203 @@
+{
+  "base_servings": 6,
+  "category": "mains",
+  "cook_minutes": 70,
+  "id": "guun-bossam",
+  "illustration": "assets/illust/guun-bossam-hero-v2.png",
+  "ingredients": [
+    {
+      "name": {
+        "en": "Skinless pork belly, in 4 chunks",
+        "kr": "보쌈용 (껍질을 벗긴) 돼지고기"
+      },
+      "note": {
+        "en": "about 14 oz (400 g) each"
+      },
+      "quantity": 3.5,
+      "unit": "lb",
+      "img": "pork-belly"
+    },
+    {
+      "name": {
+        "en": "Water",
+        "kr": "물"
+      },
+      "note": {
+        "en": "4 liters; use enough to fully cover the pork"
+      },
+      "quantity": 17,
+      "unit": "cups",
+      "img": "water"
+    },
+    {
+      "name": {
+        "en": "Sweet onion, peeled and halved",
+        "kr": "양파"
+      },
+      "quantity": 1,
+      "unit": "",
+      "img": "yellow-onion"
+    },
+    {
+      "name": {
+        "en": "Green onion roots",
+        "kr": "대파뿌리"
+      },
+      "note": {
+        "en": "optional — white parts work too"
+      },
+      "quantity": 4,
+      "unit": "",
+      "img": "green-onion-roots"
+    },
+    {
+      "name": {
+        "en": "Garlic, peeled",
+        "kr": "마늘"
+      },
+      "note": {
+        "en": "about 10 cloves (50 g)"
+      },
+      "quantity": 1.75,
+      "unit": "oz",
+      "img": "garlic"
+    },
+    {
+      "name": {
+        "en": "Fresh ginger, thickly sliced",
+        "kr": "생강"
+      },
+      "note": {
+        "en": "about ½ oz (15 g)"
+      },
+      "quantity": 0.5,
+      "unit": "piece",
+      "img": "ginger"
+    },
+    {
+      "name": {
+        "en": "Bay leaves",
+        "kr": "월계수잎"
+      },
+      "quantity": 4,
+      "unit": "",
+      "img": "bay-leaves"
+    },
+    {
+      "name": {
+        "en": "Sugar",
+        "kr": "설탕"
+      },
+      "note": {
+        "en": "500 g"
+      },
+      "quantity": 2.5,
+      "unit": "cups",
+      "img": "sugar"
+    },
+    {
+      "name": {
+        "en": "Doenjang (Korean soybean paste)",
+        "kr": "된장"
+      },
+      "note": {
+        "en": "120 g"
+      },
+      "quantity": 6.5,
+      "unit": "tbsp",
+      "img": "doenjang"
+    },
+    {
+      "name": {
+        "en": "Soy sauce",
+        "kr": "간장"
+      },
+      "note": {
+        "en": "300 ml"
+      },
+      "quantity": 1.25,
+      "unit": "cups",
+      "img": "soy-sauce"
+    },
+    {
+      "name": {
+        "en": "Corn syrup (mulyeot)",
+        "kr": "물엿"
+      },
+      "note": {
+        "en": "300 g"
+      },
+      "quantity": 1,
+      "unit": "cup",
+      "img": "corn-syrup"
+    }
+  ],
+  "prep_minutes": 15,
+  "text": {
+    "en": {
+      "mistakes": [
+        "Not drying the pork. If the surface is wet, it steams instead of searing. Pat it bone-dry with paper towels and let the pan get properly hot first.",
+        "Cranking the heat to hurry the sear. Medium heat is the whole point: the fat renders out slowly — that lard is your cooking oil — and the surface turns deep brown instead of burning.",
+        "Slicing the second it comes out of the pot. Skip the 10-minute rest and the juices run all over the cutting board. Rest it in the broth, then slice it thick."
+      ],
+      "steps": [
+        {
+          "text": "Make the braising liquid: pour the water into a large pot and add everything else — onion, green onion roots, garlic, ginger, bay leaves, sugar, doenjang, soy sauce, and corn syrup. Stir well until the doenjang, sugar, and syrup are fully dissolved.",
+          "img": "assets/illust/steps/step-1.png"
+        },
+        {
+          "text": "Set the pot over high heat and bring the liquid to a boil.",
+          "img": "assets/illust/steps/step-2.png"
+        },
+        {
+          "text": "While it heats, rinse the pork chunks and pat them completely dry with paper towels. Dry surface, good sear — this matters.",
+          "img": "assets/illust/steps/step-3.png"
+        },
+        {
+          "text": "Heat a heavy pan over medium heat. Lay the pork in, fatty side down first. The fat will slowly render out into lard; once it does, turn the chunks and brown every side evenly, nice and golden.",
+          "img": "assets/illust/steps/step-4.png"
+        },
+        {
+          "text": "When the braising liquid is boiling, lower the seared pork in so it's fully submerged.",
+          "img": "assets/illust/steps/step-5.png"
+        },
+        {
+          "text": "Boil over high heat for 40 minutes, until the pork is cooked through and tender.",
+          "timer_minutes": 40,
+          "img": "assets/illust/steps/step-6.png"
+        },
+        {
+          "text": "Turn off the heat and let the pork rest in the liquid for 10 minutes. Then lift it out, slice it thick, and serve.",
+          "timer_minutes": 10,
+          "img": "assets/illust/steps/step-7.png"
+        }
+      ],
+      "story": "Bossam was restaurant food in my head — something you order, never make. Then I found a video that seared the pork before braising it, and everything clicked. The broth is sweet, salty, and a little funky from the doenjang, and the sear gives the meat a roasted depth that plain boiled bossam never has. My first try, the kitchen smelled like a Korean restaurant for two days. Worth it.",
+      "title": "Grilled Bossam",
+      "title_sub": "구운 보쌈 · Seared & Braised Pork"
+    }
+  },
+  "nutrition": {
+    "kcal": 350,
+    "fat_g": 28,
+    "carbs_g": 15,
+    "protein_g": 23,
+    "source": "Nutribit 'Bossam' per-serving entry (web reference, approximate)"
+  },
+  "rest_minutes": 10,
+  "tags": [
+    "Caramelized & crisp-edged",
+    "sweet",
+    "Melt-in-your-mouth tender",
+    "Korea's gathering dish"
+  ],
+  "about_dish": {
+    "preview": "In Korea, bossam is gathering food. Thick slices of tender pork belly, boiled until soft and wrapped in crisp lettuce...",
+    "full": "In Korea, bossam is gathering food. Thick slices of tender pork belly, boiled until soft and wrapped in crisp lettuce with kimchi and a smear of ssamjang. It was traditionally the meal served on kimchi-making day, when the whole neighborhood worked side by side — the kind of dish meant to be shared, not eaten alone.\n\nThis version starts with a hard sear before the braise, and that golden crust is the whole point. You get deep caramelized flavor and crisped edges that plain boiled bossam never has, while the long simmer keeps every slice meltingly tender.\n\nEat it the Korean way: one slice of pork, a bit of kimchi, a dab of ssamjang, all wrapped in a lettuce leaf. One bite."
+  },
+  "time_display": {
+    "prep": "15 min",
+    "cook": "1 hr 10 mins",
+    "rest": "10 mins"
+  }
+}

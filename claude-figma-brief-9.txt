@@ -1,0 +1,15 @@
+작업: Figma 파일 cta4gGnJ1511CoeJ91bg31, Page 2, 프레임 "Recipe Details - 2" (노드 3:1410, 375×3949)의 조리 단계 이미지 4개를 새 파일로 교체해줘.
+
+교체 대상: Directions 섹션의 Step 1, Step 2, Step 5, Step 6 이미지 (각 "Step N" 라벨 바로 아래의 327×218, radius 12 이미지 노드).
+- 각 대상 노드는 옆의 "Step 1"~"Step 7" 텍스트 라벨을 직접 확인해서 식별할 것. 노드 ID를 추측하지 말 것.
+- 새 이미지 파일 (로컬 경로, PNG):
+  - Step 1 이미지 → /home/hatch/workspace/kindle-cookbook/assets/illust/steps/step-1.png
+  - Step 2 이미지 → /home/hatch/workspace/kindle-cookbook/assets/illust/steps/step-2.png
+  - Step 5 이미지 → /home/hatch/workspace/kindle-cookbook/assets/illust/steps/step-5.png
+  - Step 6 이미지 → /home/hatch/workspace/kindle-cookbook/assets/illust/steps/step-6.png
+- 채우기 모드는 FILL 유지. 노드 위치·크기·모서리 반경 변경 금지. Step 3, Step 4, Step 7 이미지와 텍스트, 그 외 모든 요소(재료·영양 정보·버튼 등)는 일절 변경 금지. 프레임 크기 변경 금지.
+
+완료 후 보고에 포함할 것:
+1. 교체한 4개 노드의 노드 ID와 새 imageHash
+2. 프레임 전체 스크린샷을 /home/hatch/workspace/kindle-cookbook/prototype/figma-3-1410-check8.png 로 저장하고 그 경로
+3. 프레임 크기(375×3949)가 그대로인지 확인

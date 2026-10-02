@@ -1,0 +1,13 @@
+Figma fix - swap the Step 5 illustration in "Recipe Details - 2" for the new landscape version.
+
+File key: cta4gGnJ1511CoeJ91bg31. Work ONLY inside frame node 3:1410 and its descendants. Do not touch Page 1 or any other frame.
+
+The Step 5 image node (14:298, "step-5 image", 327x218, corner radius 12) currently shows the old square illustration with FIT scaling. Replace its fill with the new image file at /home/hatch/workspace/kindle-cookbook/assets/illust/steps/step-5.png (1536x1024, landscape 3:2 - tongs lowering a pork chunk into the same pot as Step 6) and set the fill scaling back to FILL so it matches the other step images. Upload the PNG from that local path the same way earlier step images were placed. Keep the node's position, size (327x218) and corner radius exactly as they are.
+
+Change nothing else: the other 6 step images, title, hero, rating, Community Pick, times, servings, 11 ingredient rows, "Show all ingredients" button, Nutrition Facts (350 / 28g / 15g / 23g), all step texts, and the "Start cooking" bar stay exactly as they are. Do not resize the frame.
+
+Verification (required):
+1. get_screenshot of the area covering Step 5 and Step 6 blocks, showing the new Step 5 image (tongs + pork over the pot) filling its box, visually consistent with Step 6 below it.
+2. Export node 3:1410 with download_assets and save via Bash to /home/hatch/workspace/kindle-cookbook/prototype/figma-3-1410-check6.png (curl the URL if the tool returns one). Confirm the file exists.
+
+Final report: DONE/FAILED for (Step 5 image replaced with the new file, fill set to FILL, everything else unchanged), and the saved PNG path.

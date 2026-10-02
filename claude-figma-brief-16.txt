@@ -1,0 +1,44 @@
+작업 디렉토리: /home/hatch/workspace/kindle-cookbook
+
+## PART 1 — Figma 원본 디자인 스펙 추출
+
+Figma 파일 cta4gGnJ1511CoeJ91bg31, 프레임 "Recipe Details - 1" (노드 38:52)을 Figma MCP로 직접 읽어라.
+
+1. get_design_context로 프레임 전체의 레이아웃·색상·타이포그래피·간격·그림자·모서리 반경을 파악하라.
+2. 다음 스크린샷을 design-spec/ 폴더에 저장하라:
+   - figma-full.png (프레임 전체)
+   - figma-hero-card.png (히어로 + 타이틀 카드 영역)
+   - figma-times-ingredients.png (시간 + 재료 영역)
+   - figma-nutrition-directions.png (Nutrition + Directions 영역)
+3. design-spec/SPEC.md를 작성하라. **Figma 접근이 없는 다른 에이전트(Codex)가 이 문서와 스크린샷만 보고 픽셀 단위로 동일하게 구현할 수 있을 정도로** 상세히 적어라. 반드시 포함할 것:
+   - 전체 프레임 구조: 어떤 카드들이 분리된 그룹인지, 카드 간 간격, 페이지 배경색
+   - 히어로 이미지 카드: 모서리 반경, 화면 가장자리에서의 여백, 하트 버튼 위치·모양
+   - 타이틀 카드: 배경색, 모서리 반경, 그림자(색·blur·offset), 내부 여백, 히어로와 겹치는 방식
+   - 칩 4개의 색상·모서리·간격 ("Caramelized & crisp-edged", "sweet", "Melt-in-your-mouth tender", "Korea's gathering dish")
+   - "About this dish" 섹션: 제목/본문/More 링크의 폰트·크기·색상·정렬
+   - 시간(Prep Time/Cook Time/Rest Time) 컨테이너: 배경색, 모서리, 셀 구분 방식
+   - 재료 행: 썸네일 크기·모서리, 수량/이름/노트의 타이포, 행 구분선 유무
+   - Nutrition Facts: 셀 레이아웃(라벨 위·값 아래), 구분선
+   - Directions: "Step N" 라벨 타이포, 이미지 모서리, 본문 색상
+   - Start cooking 버튼: 색상, 모서리, 크기, 하단 고정 방식
+   - 모든 텍스트의 정확한 문구와 색상 코드
+
+## PART 2 — 웹앱 처음부터 새로 만들기
+
+1. prototype/template.html을 **처음부터 새로 작성**하라 (기존 파일 덮어쓰기). PART 1에서 파악한 Figma 원본 구조를 기준으로.
+2. 데이터: recipes/guun-bossam.json. 칩은 위 4개를 사용.
+3. 반드시 유지할 기능 (기존 동작과 동일):
+   - SSR: 빌드 시점에 본문을 HTML에 미리 렌더링 (scripts/build_page.py의 현재 방식을 유지하거나 필요시 수정)
+   - 서빙 스테퍼 (1~12, ¼ 단위 분수 계산)
+   - 재료 체크리스트 (localStorage 저장)
+   - Show all ingredients / Show fewer 펼치기
+   - About this dish More / Close 펼치기
+   - 조리 모드: 스텝별 이미지 + 타이머 + 종료 비프음 + Wake Lock
+   - 하트 즐겨찾기 토글 (localStorage)
+4. 구조 핵심: Figma처럼 **분리된 카드 그룹**으로 만들어라. 히어로 카드, 타이틀 카드, 시간 컨테이너가 각각 독립된 카드로 간격을 두고 배치되어야 한다. 기존처럼 한 덩어리로 이어지게 만들지 말 것.
+5. 빌드: `python3 scripts/build_page.py recipes/guun-bossam.json prototype/guun-bossam.html`
+
+## 보고에 포함할 것
+- design-spec/SPEC.md 및 스크린샷 저장 경로
+- PART 2에서 Figma와 다르게 판단하고 의도적으로 바꾼 점이 있으면 그 목록
+- 빌드 결과(파일 크기), node --check 결과

@@ -1,0 +1,4 @@
+작업: Figma 파일 cta4gGnJ1511CoeJ91bg31에서 노드 38-52(접힌 버전 카드로 추정)의 스크린샷을 저장해줘. 수정은 일절 하지 말 것.
+
+1. 노드 38-52를 확인하고, 해당 노드(또는 그것을 포함한 가장 가까운 프레임) 전체 스크린샷을 /home/hatch/workspace/kindle-cookbook/prototype/figma-38-52-check.png 로 저장할 것.
+2. 완료 후 보고에 포함할 것: 저장된 경로, 노드 38-52가 무엇인지(프레임 이름·크기), About this dish 노트가 접힌 상태로 보이는지 여부.

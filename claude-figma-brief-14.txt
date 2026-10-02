@@ -1,0 +1,19 @@
+작업: Figma 원본 디자인(프레임 "Recipe Details - 1", 노드 38:52)과 현재 웹앱 프로토타입(prototype/guun-bossam.html) 사이의 차이점을 아래 목록대로 수정해줘. 작업 디렉토리: /home/hatch/workspace/kindle-cookbook.
+
+**절대 유지할 것 (아키텍처):** 현재 빌드는 본문을 빌드 시점에 HTML에 미리 렌더링(SSR)해서 JS가 막힌 뷰어에서도 내용이 보인다. 이 구조를 깨지 말 것. JS는 인터랙션(스테퍼·체크·펼치기·조리모드)만 담당한다.
+
+**수정 목록 (Figma 원본에 맞추기):**
+
+1. 하트 버튼 위치: 현재 내비게이션 바에 있는 하트(♡/♥)를 히어로 이미지 오른쪽 위로 옮겨라. Figma처럼 이미지 위에 흰색 원형 배경의 하트 버튼으로, 절대 위치(top-right, 이미지와 겹치게). 기존 localStorage 즐겨찾기 토글 동작은 그대로 유지.
+2. 내비게이션 바 오른쪽: 하트가 빠진 자리에는 Figma처럼 "..." 버튼을 넣어라 (장식용, 동작 없음).
+3. 칩: 현재 3개 → Figma와 동일한 4개로. JSON의 tags를 ["Caramelized & crisp-edged", "sweet", "Melt-in-your-mouth tender", "Korea's gathering dish"] 로 변경.
+4. 시간 표기: Figma와 정확히 일치하게. "Prep Time 15 min", "Cook Time 1 hr 10 mins", "Rest Time 10 mins". (현재 "15 mins"로 되어 있음)
+5. Nutrition 섹션: 제목을 "Nutrition Facts"로 변경. 셀 레이아웃을 Figma처럼 변경 — 라벨(예: CALORIES)이 위, 값(예: 350)이 아래, 셀 사이에 세로 구분선. 현재 하단의 "Per serving · estimates, not lab-measured" 안내 문구는 삭제 (Figma에 없음).
+6. Directions 스텝 본문 색: 현재 진한 색(#4A4238) → Figma처럼 회색(#707070).
+7. Directions에서 타이머 칩("40 min", "10 min" pill) 제거. Figma의 Directions 목록에는 타이머 칩이 없음. (조리 모드 안의 타이머는 그대로 유지)
+8. "What I messed up my first time" 팁 섹션 전체를 페이지에서 제거. Figma 접힌 버전 페이지에는 이 섹션이 없음. (JSON 데이터는 삭제하지 말 것)
+9. 스텝 1 문구: 현재 "add everything else — sweet onion," → Figma 원본대로 "add everything else — onion," 으로 되돌리기. (JSON text.en.steps[0] 수정)
+
+**빌드:** 수정 후 `python3 scripts/build_page.py recipes/guun-bossam.json prototype/guun-bossam.html` 실행.
+
+**완료 후 보고에 포함할 것:** 1~9 각 항목의 수정 여부, 빌드 결과(파일 크기), 그리고 JS 문법 체크(node --check) 결과.

@@ -1,0 +1,15 @@
+Figma fix - Step 5 image must show uncropped inside its frame in "Recipe Details - 2".
+
+File key: cta4gGnJ1511CoeJ91bg31. Work ONLY inside frame node 3:1410 and its descendants. Do not touch Page 1 or any other frame.
+
+Problem: the Step 5 illustration (between the "Step 5" label and the step 5 text) is a SQUARE image (1254x1254) placed in a 327x218 landscape box with FILL scaling, so its top and bottom are cropped off.
+
+Fix: on that one image node only, change the image fill scaling from FILL to FIT so the entire illustration is visible inside the box with nothing cropped. Keep the node's position, size (327x218) and corner radius exactly as they are. (The illustration is on a white background, so the side margins FIT leaves will blend in.)
+
+Change nothing else: the other 6 step images keep FILL, and the title, hero, rating, Community Pick, times, servings, 11 ingredient rows, "Show all ingredients" button, Nutrition Facts (350 / 28g / 15g / 23g), all step texts, and the "Start cooking" bar stay exactly as they are. Do not resize the frame.
+
+Verification (required):
+1. get_screenshot of the Step 5 block showing the whole illustration uncropped.
+2. Export node 3:1410 with download_assets and save via Bash to /home/hatch/workspace/kindle-cookbook/prototype/figma-3-1410-check5.png (curl the URL if the tool returns one). Confirm the file exists.
+
+Final report: DONE/FAILED for (Step 5 fill changed to FIT, everything else unchanged), and the saved PNG path.

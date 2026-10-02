@@ -1,0 +1,18 @@
+Figma fix - delete the leftover placeholder photo at the bottom of frame "Recipe Details - 2".
+
+File key: cta4gGnJ1511CoeJ91bg31. Work ONLY inside frame node 3:1410 and its descendants. Do not touch Page 1 or any other frame.
+
+Background: after Step 7 and just above the pinned "Start cooking" button bar there is a wide placeholder photo (a stainless pot of cooked ground meat with a wooden spoon) left over from the original template. It has nothing to do with this recipe. Delete it.
+
+What to do:
+1. Use get_metadata/get_design_context on 3:1410 to locate that photo node.
+2. Delete only that photo node.
+3. Close the gap so the layout stays clean: Step 7's text should flow directly into the bottom "Start cooking" section with the same spacing rhythm used elsewhere. The frame has a fixed height; shrink the frame height by the deleted photo's height plus its gap so no empty space remains. The "Start cooking" bar stays pinned at the bottom as the last element, unchanged.
+4. Change nothing else: title, hero, rating, Community Pick, times, servings, all 11 ingredient rows, the restored "Show all ingredients" button (node 15:277), Nutrition Facts, and all 7 step blocks with their images and texts stay exactly as they are.
+
+Verification (required):
+1. get_design_context on 3:1410: confirm the photo is gone and Step 7 is now the last content block before the button bar.
+2. get_screenshot of the bottom area (Step 7 through the Start cooking bar) and check nothing overlaps and no blank gap remains.
+3. Export node 3:1410 with download_assets and save via Bash to /home/hatch/workspace/kindle-cookbook/prototype/figma-3-1410-check3.png (curl the URL if the tool returns one). Confirm the file exists.
+
+Final report: DONE/FAILED for (photo deleted, gap closed, frame height now, everything else unchanged), and the saved PNG path.

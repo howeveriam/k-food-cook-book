@@ -1,0 +1,13 @@
+Figma fix - replace the hero image in "Recipe Details - 2" with the new full-bleed hero illustration.
+
+File key: cta4gGnJ1511CoeJ91bg31. Work ONLY inside frame node 3:1410 and its descendants. Do not touch Page 1 or any other frame.
+
+The hero image node (3:1420, "Rectangle 3", 327x327 at the top of the frame) currently shows the old white-background hero illustration. Replace its fill with the new image file at /home/hatch/workspace/kindle-cookbook/assets/illust/guun-bossam-hero-v2.png (square 1:1, full-bleed wooden-table scene) using upload_assets, and set the fill scaling to FILL so it covers the box edge to edge. Keep the node's position, size (327x327) and corner radius exactly as they are.
+
+Change nothing else: title, rating, Community Pick, times, servings, all 11 ingredient rows, "Show all ingredients" button, Nutrition Facts (350 / 28g / 15g / 23g), all 7 step blocks with images and texts, and the "Start cooking" bar stay exactly as they are. Do not resize the frame.
+
+Verification (required):
+1. get_screenshot of the top area of the frame showing the new hero image filling its box edge to edge (no white margins), with the title below it.
+2. Export node 3:1410 with download_assets and save via Bash to /home/hatch/workspace/kindle-cookbook/prototype/figma-3-1410-check7.png (curl the URL if the tool returns one). Confirm the file exists.
+
+Final report: DONE/FAILED for (hero image replaced with the new file, fill set to FILL, everything else unchanged), and the saved PNG path.

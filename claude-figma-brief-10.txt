@@ -1,0 +1,4 @@
+작업: Figma 파일 cta4gGnJ1511CoeJ91bg31, Page 2, 프레임 "Recipe Details - 2" (노드 3:1410)의 현재 상태를 스크린샷으로 저장해줘. 수정은 일절 하지 말 것.
+
+1. 프레임 전체 스크린샷을 /home/hatch/workspace/kindle-cookbook/prototype/figma-3-1410-check9.png 로 저장할 것 (1배율, 375×3949 예상).
+2. 완료 후 보고에 포함할 것: 저장된 경로, 프레임 크기, 그리고 상단 카드 영역(히어로 이미지~About this dish 노트 부분)에 눈에 띄는 변경이 있었는지 한 줄 요약.

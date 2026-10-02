@@ -1,0 +1,17 @@
+Figma fix - restore the "Show all ingredients" element in frame "Recipe Details - 2".
+
+File key: cta4gGnJ1511CoeJ91bg31. Work ONLY inside frame node 3:1410 and its descendants. Do not edit Page 1 or any other frame (you may READ Page 1 for reference).
+
+Background: in the previous editing round, the "Show all ingredients" element below the ingredients list was deleted. That was a mistake - the user wants it kept in the design. It must be restored.
+
+What to do:
+1. First READ the reference: on Page 1 there is an original recipe-details design. Find its "Show all ingredients" element (text, icon if any, position, font, size, color, alignment, spacing) and note exactly how it looks. Also use get_design_context/get_metadata on 3:1410 to see the current ingredients section in the working frame.
+2. Recreate the "Show all ingredients" element inside 3:1410, matching the original design as closely as possible (same text and styling). Place it directly below the last (11th) ingredient row, in the same horizontal alignment the original had relative to the ingredient rows.
+3. Change nothing else: all 11 ingredient rows, step blocks, images, title, Nutrition Facts, dish photo, and the "Start cooking" button stay exactly as they are.
+
+Verification (required):
+1. get_design_context on 3:1410 and confirm the ingredients section now ends with the restored "Show all ingredients" element.
+2. get_screenshot of the ingredients area showing the restored element.
+3. Export node 3:1410 with download_assets and save the PNG via Bash to /home/hatch/workspace/kindle-cookbook/prototype/figma-3-1410-check2.png (curl the URL if the tool returns one). Confirm the file exists.
+
+Final report: DONE/FAILED for (element restored, styling matches original, nothing else changed), and the saved PNG path. If you cannot find the original element on Page 1, say so and describe what you recreated instead.

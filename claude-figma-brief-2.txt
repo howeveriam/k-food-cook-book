@@ -1,0 +1,40 @@
+Figma editing task - recipe page mockup, frame "Recipe Details - 2".
+
+File key: cta4gGnJ1511CoeJ91bg31. Work ONLY inside frame node 3:1410 and its descendants. Do not touch Page 1 or any other frame. Start with get_figma_skill, then get_design_context and get_metadata on 3:1410 to understand the current structure before editing.
+
+Already-done content in this frame (do not change or delete): dish title "Grilled Bossam", byline "by a 50-something beginner", Prep 15 min, Cook 1 hr 10 mins, Rest Time 10 mins, servings 6, hero image (bossam illustration), bottom button "Start cooking", rating "4.8", "12.3k reviews", "Community Pick" badge, Nutrition Facts block, and the dish photo near the bottom. Leave all of those exactly as they are.
+
+TASK A - Ingredients list: show ALL 11 ingredients as rows (round thumbnail + one text line each), in this exact order. The 5 existing rows already show rows 1-5 with the texts below; keep their texts as they are and only replace their lasagna-photo thumbnails with the new files. Duplicate the existing ingredient row block to add rows 6-11 (same row height, spacing, fonts, and text style). Then delete the "Show all ingredients" element - the full list is always visible now.
+
+Rows (text exactly as written) and thumbnail file (all in /home/hatch/workspace/kindle-cookbook/assets/illust/ingredients/codex/):
+1. "3½ lb Skinless pork belly, in 4 chunks" (existing text) - pork-belly.png
+2. "17 cups Water" (existing text) - water.png
+3. "1 Yellow onion, peeled and halved" (existing text) - yellow-onion.png
+4. "4 Green onion roots (optional)" (existing text) - green-onion-roots.png
+5. "1¾ oz Garlic (about 10 cloves)" (existing text) - garlic.png
+6. "½ piece Fresh ginger, thickly sliced" - ginger.png
+7. "4 Bay leaves" - bay-leaves.png
+8. "2½ cups Sugar" - sugar.png
+9. "6½ tbsp Doenjang (Korean soybean paste)" - doenjang.png
+10. "1¼ cups Soy sauce" - soy-sauce.png
+11. "1 cup Corn syrup (mulyeot)" - corn-syrup.png
+
+Set each thumbnail image fill to FILL crop like the originals.
+
+TASK B - Directions: duplicate the existing Step 1 block so there are 7 step blocks, in order, keeping the same "Step N" labeling style. Put each step's illustration into its block: if the original block has an image placeholder, fill it; if it has none, place the illustration directly above the step text at the same width as the text column, with the same corner-radius style as other images in the frame. Use these exact texts (do not rewrite or shorten them). Step images are in /home/hatch/workspace/kindle-cookbook/assets/illust/steps/:
+Step 1 (existing block; set its text if not already exact) - step-1.png - "Make the braising liquid: pour the water into a large pot and add everything else — onion, green onion roots, garlic, ginger, bay leaves, sugar, doenjang, soy sauce, and corn syrup. Stir well until the doenjang, sugar, and syrup are fully dissolved."
+Step 2 - step-2.png - "Set the pot over high heat and bring the liquid to a boil."
+Step 3 - step-3.png - "While it heats, rinse the pork chunks and pat them completely dry with paper towels. Dry surface, good sear — this matters."
+Step 4 - step-4.png - "Heat a heavy pan over medium heat. Lay the pork in, fatty side down first. The fat will slowly render out into lard; once it does, turn the chunks and brown every side evenly, nice and golden."
+Step 5 - step-5.png - "When the braising liquid is boiling, lower the seared pork in so it's fully submerged."
+Step 6 - step-6.png - "Boil over high heat for 40 minutes, until the pork is cooked through and tender."
+Step 7 - step-7.png - "Turn off the heat and let the pork rest in the liquid for 10 minutes. Then lift it out, slice it thick, and serve."
+
+TASK C - Layout: the frame will become much taller. Extend the frame height and shift everything below the expanded sections downward so nothing overlaps, preserving the original vertical order, margins, and spacing rhythm. The bottom "Start cooking" button must remain the last element with its original bottom margin.
+
+Verification (required before finishing):
+1. get_design_context on 3:1410; read back all 11 ingredient lines and all 7 step texts and confirm order and exact wording.
+2. get_screenshot of the full frame and look for overlaps or clipped elements.
+3. Use download_assets to export node 3:1410 as a PNG and save it with Bash to /home/hatch/workspace/kindle-cookbook/prototype/figma-3-1410-check.png (if the tool returns a URL, curl it to that path). Confirm the file exists.
+
+Final report: DONE/FAILED for each of (11 ingredient rows, 11 thumbnails, Show-all removal, 7 step blocks, 7 step images, layout without overlaps), the frame's new height, and the saved check-PNG path. If something fails, say exactly what and why. Do not invent any content.

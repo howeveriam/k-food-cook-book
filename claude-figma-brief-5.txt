@@ -1,0 +1,18 @@
+Figma fix - update the Nutrition Facts numbers in frame "Recipe Details - 2".
+
+File key: cta4gGnJ1511CoeJ91bg31. Work ONLY inside frame node 3:1410 and its descendants. Do not touch Page 1 or any other frame.
+
+The Nutrition Facts section currently shows placeholder values. Replace exactly these four numbers, keeping the same labels, order, fonts, and formats:
+- CALORIES: 448 -> 350
+- FAT: 21g -> 28g
+- CARBS: 37g -> 15g
+- PROTEIN: 30g -> 23g
+
+Change nothing else: title, hero, rating, Community Pick, times, servings, all 11 ingredient rows, the "Show all ingredients" button, all 7 step blocks with images and texts, and the "Start cooking" bar stay exactly as they are. Do not resize the frame.
+
+Verification (required):
+1. get_design_context on 3:1410 and confirm the Nutrition Facts now read 350 / 28g / 15g / 23g.
+2. get_screenshot of the Nutrition Facts area showing the new numbers.
+3. Export node 3:1410 with download_assets and save via Bash to /home/hatch/workspace/kindle-cookbook/prototype/figma-3-1410-check4.png (curl the URL if the tool returns one). Confirm the file exists.
+
+Final report: DONE/FAILED for (four numbers updated, nothing else changed), and the saved PNG path.

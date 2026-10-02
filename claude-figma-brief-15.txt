@@ -1,0 +1,8 @@
+작업: /home/hatch/workspace/kindle-cookbook 의 웹앱 프로토타입에서 시간 라벨의 대소문자를 Figma 원본에 맞게 수정해줘.
+
+현재: "PREP TIME", "COOK TIME", "REST TIME" (전체 대문자)
+변경: "Prep Time", "Cook Time", "Rest Time" (Figma 원본과 동일한 타이틀 케이스)
+
+prototype/template.html (또는 빌드 스크립트가 라벨을 생성한다면 scripts/build_page.py) 에서 해당 문자열을 찾아 수정하고,
+`python3 scripts/build_page.py recipes/guun-bossam.json prototype/guun-bossam.html` 로 리빌드해줘.
+SSR 구조(본문 미리 렌더링)는 건드리지 말 것. 완료 후 빌드 결과(파일 크기)만 보고.
