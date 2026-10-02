@@ -30,3 +30,10 @@
 | doenjang | Doenjang (Korean soybean paste) | 된장 | guun-bossam |
 | soy-sauce | Soy sauce | 간장 | guun-bossam |
 | corn-syrup | Corn syrup (mulyeot) | 물엿 | guun-bossam |
+| la-galbi | LA galbi (flanken-cut beef short ribs) | LA 갈비 | yangnyeom-galbi |
+| green-onion-chopped | Chopped green onion | 다진 대파 | yangnyeom-galbi |
+| garlic-minced | Minced garlic | 간마늘 | yangnyeom-galbi |
+| cooking-wine | Cooking wine (mat-sul) | 맛술 | yangnyeom-galbi |
+| ginger-minced | Grated ginger | 간생강 | yangnyeom-galbi |
+| black-pepper | Black pepper | 후추 | yangnyeom-galbi |
+| sesame-oil | Sesame oil | 참기름 | yangnyeom-galbi |
