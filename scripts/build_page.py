@@ -73,6 +73,8 @@ def build(recipe_path: str, out_path: str) -> None:
         if not slug:
             continue
         p = ROOT / "assets" / "illust" / "ingredients" / "codex" / f"{slug}.png"
+        if not p.exists():
+            continue
         im = Image.open(p).convert("RGB").resize((160, 160), Image.LANCZOS)
         ing_imgs[slug] = _datauri(im, 70)
     recipe["_images"] = {"steps": step_imgs, "ingredients": ing_imgs}
@@ -153,6 +155,8 @@ def build(recipe_path: str, out_path: str) -> None:
     }
     for icon in (ROOT / "design-spec/icons").glob("*.svg"):
         subs["__ICON_" + icon.stem.upper().replace("-", "_") + "__"] = icon.read_text()
+    clock_js = (ROOT / "design-spec/icons/clock.svg").read_text().replace("\n", "")
+    subs["__ICON_CLOCK_JS__"] = "'" + clock_js.replace("'", "\\'") + "'"
     difficulty = max(0, min(5, float(recipe.get("difficulty", 0))))
     full = int(difficulty)
     half = 1 if difficulty - full >= 0.5 else 0

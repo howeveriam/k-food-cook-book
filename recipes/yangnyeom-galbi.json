@@ -97,7 +97,19 @@
    "note": {
     "en": "or 2 cups water + 1 cup ground Korean pear"
    },
-   "quantity": 3,
+   "quantity": 2,
+   "unit": "cup"
+  },
+  {
+   "img": "pear-juice",
+   "name": {
+    "en": "Pear juice",
+    "kr": "배주스"
+   },
+   "note": {
+    "en": "optional — if omitted, use 3 cups water"
+   },
+   "quantity": 1,
    "unit": "cup"
   },
   {
@@ -141,7 +153,7 @@
     },
     {
      "img": "assets/illust/steps/galbi-step-4.png",
-     "text": "Make the marinade: combine the green onion, sugar, corn syrup, garlic, cooking wine, ginger, pepper, and sesame oil with the water (or water plus pear juice). Stir well until the sugar and syrup are fully dissolved."
+     "text": "Make the marinade: combine the green onion, sugar, corn syrup, garlic, cooking wine, ginger, pepper, and sesame oil with the water and pear juice. Stir well until the sugar and syrup are fully dissolved."
     },
     {
      "img": "assets/illust/steps/galbi-step-5.png",
