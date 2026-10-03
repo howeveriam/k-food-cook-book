@@ -37,3 +37,4 @@
 | ginger-minced | Grated ginger | 간생강 | yangnyeom-galbi |
 | black-pepper | Black pepper | 후추 | yangnyeom-galbi |
 | sesame-oil | Sesame oil | 참기름 | yangnyeom-galbi |
+| pear-juice | Pear juice | 배주스 | yangnyeom-galbi |
