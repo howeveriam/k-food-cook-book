@@ -26,6 +26,10 @@ def _datauri(img: Image.Image, q: int) -> str:
 
 def _cover(path: pathlib.Path, tw: int, th: int, q: int) -> str:
     im = Image.open(path).convert("RGB")
+    # 이미 3:2 비율이면 크롭 없이 리사이즈만
+    if abs(im.width / im.height - tw / th) < 0.01:
+        im = im.resize((tw, th), Image.LANCZOS)
+        return _datauri(im, q)
     s = max(tw / im.width, th / im.height)
     im = im.resize((int(im.width * s + 0.5), int(im.height * s + 0.5)), Image.LANCZOS)
     x = (im.width - tw) // 2
