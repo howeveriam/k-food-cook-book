@@ -20,5 +20,6 @@
 | wooden-spoon | a light wooden spoon | `steps/step-1.png` |
 | cutting-board | a thick wooden cutting board | `steps/step-7.png` |
 | chefs-knife | a chef's knife | `steps/step-7.png` |
+| round-wok | a large round black seasoned wok with two short loop handles on both sides | `steps/jjukkumi-step-11-v3.png` (2026-10-03 쭈꾸미 스텝 11/12/13 통일 기준으로 확정) |
 
 기준 이미지 경로 접두사: `assets/illust/` (예: `assets/illust/steps/step-6.png`)
