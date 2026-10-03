@@ -78,6 +78,9 @@ def build(recipe_path: str, out_path: str) -> None:
         im = Image.open(p).convert("RGB").resize((160, 160), Image.LANCZOS)
         ing_imgs[slug] = _datauri(im, 70)
     recipe["_images"] = {"steps": step_imgs, "ingredients": ing_imgs}
+    recipe["_videos"] = {
+        str(i): s["video"] for i, s in enumerate(T["steps"]) if s.get("video")
+    }
 
     # 본문 미리 렌더링
     chips = "".join(
