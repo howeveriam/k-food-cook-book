@@ -142,7 +142,7 @@
         {
           "img": "assets/illust/steps/galbi-step-1.png",
           "text": "Soak the LA galbi in water for 30 minutes to 1 hour. This draws out the blood and removes impurities like bone dust.",
-          "video": "assets/video/galbi/galbi-step-1.mp4"
+          "video": "../assets/video/galbi/galbi-step-1.mp4"
         },
         {
           "img": "assets/illust/steps/galbi-step-2.png",
@@ -155,12 +155,12 @@
         {
           "img": "assets/illust/steps/galbi-step-4.png",
           "text": "Make the marinade: combine the green onion, sugar, corn syrup, garlic, cooking wine, ginger, pepper, and sesame oil with the water and pear juice. Stir well until the sugar and syrup are fully dissolved.",
-          "video": "assets/video/galbi/galbi-step-4.mp4"
+          "video": "../assets/video/galbi/galbi-step-4.mp4"
         },
         {
           "img": "assets/illust/steps/galbi-step-5-v4.png",
           "text": "In a roomy container, lay the drained ribs in layers, pouring marinade over each layer so every piece is evenly submerged.",
-          "video": "assets/video/galbi/galbi-step-5.mp4"
+          "video": "../assets/video/galbi/galbi-step-5.mp4"
         },
         {
           "img": "assets/illust/steps/galbi-step-6.png",
@@ -170,22 +170,22 @@
         {
           "img": "assets/illust/steps/galbi-step-7.png",
           "text": "Spread the marinated ribs in a wide frying pan and spoon about 1 tablespoon of reserved marinade over each row of ribs (about 4 tablespoons for 4 rows). The extra liquid keeps the sweet marinade from burning before the meat cooks through.",
-          "video": "assets/video/galbi/galbi-step-7.mp4"
+          "video": "../assets/video/galbi/galbi-step-7.mp4"
         },
         {
           "img": "assets/illust/steps/galbi-step-8.png",
           "text": "Cover with a lid and cook over medium heat, flipping the ribs every 3 to 5 minutes. The trapped steam cooks the meat through while protecting the surface from burning.",
-          "video": "assets/video/galbi/galbi-step-8.mp4"
+          "video": "../assets/video/galbi/galbi-step-8.mp4"
         },
         {
           "img": "assets/illust/steps/galbi-step-9.png",
           "text": "Once the meat is mostly cooked, uncover and sear over high heat, letting the marinade reduce and glaze the ribs.",
-          "video": "assets/video/galbi/galbi-step-9.mp4"
+          "video": "../assets/video/galbi/galbi-step-9.mp4"
         },
         {
           "img": "assets/illust/steps/galbi-step-10.png",
           "text": "Cut the well-browned ribs into bite-size pieces and serve.",
-          "video": "assets/video/galbi/galbi-step-10.mp4"
+          "video": "../assets/video/galbi/galbi-step-10.mp4"
         }
       ],
       "title": "Yangnyeom Galbi",
