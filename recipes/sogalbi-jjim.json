@@ -1,0 +1,309 @@
+{
+  "about_dish": {
+    "full": "Sogalbi jjim is Korea's celebration braise — beef short ribs simmered for hours in a sweet-savory soy sauce until the meat surrenders off the bone. The secret is the double boil: parboil first to purge impurities, then a long, patient simmer with radish, carrot, and mushrooms soaking up the glossy sauce.",
+    "preview": "Sogalbi jjim is Korea's celebration braise — beef short ribs simmered for hours in a sweet-savory"
+  },
+  "base_servings": 4,
+  "category": "mains",
+  "cook_minutes": 105,
+  "difficulty": 5,
+  "id": "sogalbi-jjim",
+  "illustration": "assets/illust/sogalbi-jjim-hero.png",
+  "ingredients": [
+    {
+      "img": "beef-short-ribs-braise",
+      "name": {
+        "en": "Beef short ribs (braising cut)",
+        "kr": "찜용 소갈비"
+      },
+      "quantity": 2,
+      "unit": "kg"
+    },
+    {
+      "img": "pine-mushroom",
+      "name": {
+        "en": "Pine mushrooms (songi)",
+        "kr": "송이버섯"
+      },
+      "quantity": 2,
+      "unit": "pieces"
+    },
+    {
+      "img": "shiitake-v3",
+      "name": {
+        "en": "Shiitake mushrooms",
+        "kr": "표고버섯"
+      },
+      "note": {
+        "en": "2–3"
+      },
+      "quantity": 3,
+      "unit": "pieces"
+    },
+    {
+      "img": "yellow-onion",
+      "name": {
+        "en": "Sweet onion",
+        "kr": "양파"
+      },
+      "quantity": 2,
+      "unit": "pieces"
+    },
+    {
+      "img": "korean-radish",
+      "name": {
+        "en": "Korean radish (mu)",
+        "kr": "무"
+      },
+      "note": {
+        "en": "1/3 of a large radish"
+      },
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "img": "carrot",
+      "name": {
+        "en": "Carrot",
+        "kr": "당근"
+      },
+      "quantity": 1,
+      "unit": "piece"
+    },
+    {
+      "img": "green-onion-white",
+      "name": {
+        "en": "Green onion (white parts)",
+        "kr": "대파 몸통"
+      },
+      "quantity": 3,
+      "unit": "stalks"
+    },
+    {
+      "img": "cheongyang-chili",
+      "name": {
+        "en": "Cheongyang chili pepper",
+        "kr": "청양고추"
+      },
+      "quantity": 2,
+      "unit": "pieces"
+    },
+    {
+      "img": "kkwari-pepper",
+      "name": {
+        "en": "Kkwari peppers",
+        "kr": "꽈리고추"
+      },
+      "quantity": 5,
+      "unit": "pieces"
+    },
+    {
+      "img": "red-chili",
+      "name": {
+        "en": "Red chili peppers",
+        "kr": "홍고추"
+      },
+      "quantity": 2,
+      "unit": "pieces"
+    },
+    {
+      "img": "green-onion-chopped",
+      "name": {
+        "en": "Chopped green onion",
+        "kr": "다진 대파"
+      },
+      "note": {
+        "en": "for the braising sauce, about 50 g"
+      },
+      "quantity": 0.67,
+      "unit": "cup"
+    },
+    {
+      "img": "soy-sauce",
+      "name": {
+        "en": "Jin-ganjang (dark soy sauce)",
+        "kr": "진간장"
+      },
+      "note": {
+        "en": "for the braising sauce, about 260 g"
+      },
+      "quantity": 1.33,
+      "unit": "cup"
+    },
+    {
+      "img": "brown-sugar",
+      "name": {
+        "en": "Brown sugar (hwang-seoltang)",
+        "kr": "황설탕"
+      },
+      "note": {
+        "en": "for the braising sauce, about 100 g"
+      },
+      "quantity": 0.67,
+      "unit": "cup"
+    },
+    {
+      "img": "cooking-wine",
+      "name": {
+        "en": "Cooking wine (mat-sul)",
+        "kr": "맛술"
+      },
+      "note": {
+        "en": "for the braising sauce, about 100 g"
+      },
+      "quantity": 0.67,
+      "unit": "cup"
+    },
+    {
+      "img": "water",
+      "name": {
+        "en": "Water",
+        "kr": "물"
+      },
+      "note": {
+        "en": "for the braising sauce, about 240 g — plus 1 liter added to the pot in step 6"
+      },
+      "quantity": 1.33,
+      "unit": "cup"
+    },
+    {
+      "img": "garlic-minced",
+      "name": {
+        "en": "Minced garlic",
+        "kr": "간마늘"
+      },
+      "note": {
+        "en": "for the braising sauce, about 40 g"
+      },
+      "quantity": 0.25,
+      "unit": "cup"
+    },
+    {
+      "img": "ginger-minced",
+      "name": {
+        "en": "Grated ginger",
+        "kr": "간생강"
+      },
+      "note": {
+        "en": "for the braising sauce, about 10 g"
+      },
+      "quantity": 0.67,
+      "unit": "tbsp"
+    },
+    {
+      "img": "black-pepper",
+      "name": {
+        "en": "Black pepper",
+        "kr": "후추"
+      },
+      "quantity": 1,
+      "unit": "g"
+    },
+    {
+      "img": "sesame-oil",
+      "name": {
+        "en": "Sesame oil",
+        "kr": "참기름"
+      },
+      "note": {
+        "en": "for the braising sauce"
+      },
+      "quantity": 4,
+      "unit": "tbsp"
+    }
+  ],
+  "nutrition": {
+    "carbs_g": 28,
+    "fat_g": 52,
+    "kcal": 720,
+    "protein_g": 38
+  },
+  "prep_minutes": 30,
+  "rest_minutes": 10,
+  "tags": [
+    "Fall-off-the-bone tender",
+    "Sweet-savory soy braise",
+    "Korean holiday classic",
+    "One-pot comfort"
+  ],
+  "text": {
+    "en": {
+      "mistakes": [
+        "Skipping the parboil. Boiling the ribs once and rinsing them clean is what keeps the braising liquid clear and free of any gamey taste — skip it and there's no fixing the broth later.",
+        "Adding all the vegetables at once. Radish needs 15 minutes, carrot and mushrooms 10, onion only 5 — stagger them so nothing turns to mush.",
+        "Skipping the rest. Those 10 minutes covered off the heat let the sauce settle into the meat. Serve it straight off the boil and it tastes flat by comparison."
+      ],
+      "steps": [
+        {
+          "img": "assets/illust/steps/sogalbi-step-1.png",
+          "text": "Rinse the short ribs clean in cold water."
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-2-v2.png",
+          "text": "Place the rinsed ribs in a large pot, pour in enough water to cover them, and bring to a boil."
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-3.png",
+          "text": "Once boiling, lift the ribs out and rinse them again thoroughly under running water."
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-4.png",
+          "text": "Drain the rinsed ribs in a colander and shake off the excess water."
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-5.png",
+          "text": "Make the braising sauce: combine the chopped green onion, soy sauce, brown sugar, cooking wine, water, garlic, ginger, pepper, and sesame oil in a bowl. Stir until the sugar is fully dissolved."
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-6.png",
+          "text": "Put the drained ribs and the braising sauce in the large pot, then pour in 1 liter of water."
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-7.png",
+          "text": "Bring the pot to a boil over high heat and cook for 1 hour.",
+          "timer_minutes": 60
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-8.png",
+          "text": "While it boils, prep the vegetables: cut the radish into flat squares (nabak), cut the carrot into generous 5 cm chunks, cut the mushrooms into large bite-size pieces, and cut the onion into 3–5 cm chunks."
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-9.png",
+          "text": "As it boils, skim off the foam and impurities that rise to the surface with a spoon."
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-10.png",
+          "text": "After 1 hour, add the radish and cook for 15 minutes.",
+          "timer_minutes": 15
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-11.png",
+          "text": "Add the carrot and cook for 10 minutes.",
+          "timer_minutes": 10
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-12.png",
+          "text": "Add the mushrooms and cook for 10 minutes.",
+          "timer_minutes": 10
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-13.png",
+          "text": "Add the onion and cook for 5 more minutes.",
+          "timer_minutes": 5
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-14.png",
+          "text": "When the onion turns translucent, add the peppers and green onion, cook for 3 minutes, then turn off the heat.",
+          "timer_minutes": 3
+        },
+        {
+          "img": "assets/illust/steps/sogalbi-step-15.png",
+          "text": "Cover with the lid and let it rest for 10 minutes before serving."
+        }
+      ],
+      "story": "Sogalbi jjim is what my family makes when everyone comes home — the pot alone is the centerpiece. The first time I made it, I skipped the parboil to save time, and the broth turned cloudy with a gamey edge I couldn't fix. Now I never skip it: boil once, rinse clean, and the second simmer rewards you with a clear, glossy sauce and meat that falls off the bone.",
+      "title": "Sogalbi Jjim",
+      "title_sub": "소갈비찜 · Braised Beef Short Ribs"
+    }
+  }
+}

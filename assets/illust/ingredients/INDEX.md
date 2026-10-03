@@ -46,3 +46,13 @@
 | oyster-sauce | Oyster sauce | 굴소스 | jjukkumi-samgyeopsal |
 | chili-flakes | Chili flakes (gochugaru) | 고추가루 | jjukkumi-samgyeopsal |
 | gochujang | Gochujang (red chili paste) | 고추장 | jjukkumi-samgyeopsal |
+---
+| beef-short-ribs-braise | Beef short ribs (braising cut) | 찜용 소갈비 | sogalbi-jjim |
+| pine-mushroom | Pine mushrooms (songi) | 송이버섯 | sogalbi-jjim |
+| shiitake-v3 | Shiitake mushrooms (loose watercolor, white crackle caps) | 표고버섯 | sogalbi-jjim |
+| korean-radish | Korean radish (mu) | 무 | sogalbi-jjim |
+| carrot | Carrot | 당근 | sogalbi-jjim |
+| green-onion-white | Green onion (white parts) | 대파 몸통 | sogalbi-jjim |
+| kkwari-pepper | Kkwari peppers | 꽈리고추 | sogalbi-jjim |
+| red-chili | Red chili peppers | 홍고추 | sogalbi-jjim |
+| brown-sugar | Brown sugar (hwang-seoltang) | 황설탕 | sogalbi-jjim |
