@@ -115,9 +115,17 @@ def build(recipe_path: str, out_path: str) -> None:
     )
 
     def step_block(s, i):
+        badge = ""
+        if s.get("badge"):
+            clock_svg = (ROOT / "design-spec/icons/clock.svg").read_text()
+            badge = (
+                f'<div class="step-badge">{clock_svg}'
+                f'<span>{esc(s["badge"])}</span></div>'
+            )
         return (
             f'<div class="step"><div class="s-label">Step {i + 1}</div>'
-            f'<img src="{step_imgs[i]}" alt="Step {i + 1}">'
+            f'<div class="step-imgwrap"><img src="{step_imgs[i]}" alt="Step {i + 1}">'
+            f'{badge}</div>'
             f"<p>{esc(s['text'])}</p></div>"
         )
 
