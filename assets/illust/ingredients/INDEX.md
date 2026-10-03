@@ -38,3 +38,11 @@
 | black-pepper | Black pepper | 후추 | yangnyeom-galbi |
 | sesame-oil | Sesame oil | 참기름 | yangnyeom-galbi |
 | pear-juice | Pear juice | 배주스 | yangnyeom-galbi |
+---
+| baby-octopus | Baby octopus (jjukkumi) | 쭈꾸미 | jjukkumi-samgyeopsal |
+| pork-belly-thin | Thin-sliced pork belly (daepae) | 대패삼겹살 | jjukkumi-samgyeopsal |
+| cheongyang-chili | Cheongyang chili pepper | 청양고추 | jjukkumi-samgyeopsal |
+| perilla-leaves | Perilla leaves (kkaennip) | 깻잎 | jjukkumi-samgyeopsal |
+| oyster-sauce | Oyster sauce | 굴소스 | jjukkumi-samgyeopsal |
+| chili-flakes | Chili flakes (gochugaru) | 고추가루 | jjukkumi-samgyeopsal |
+| gochujang | Gochujang (red chili paste) | 고추장 | jjukkumi-samgyeopsal |
