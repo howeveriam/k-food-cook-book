@@ -1,1 +1,181 @@
-{"about_dish":{"full":"In Korea, galbi is celebration food. These cross-cut beef short ribs soak up a sweet-savory marinade of pear, garlic, and soy, then hit the pan where the sugars caramelize into a glossy, charred glaze. The trick is in the two-stage sear: steam first under a lid so the meat cooks through without burning, then finish over high heat to reduce the marinade into a sticky coating.","preview":"In Korea, galbi is celebration food. Cross-cut beef short ribs marinated in a sweet-savory blend, then seared until the edges caramelize."},"base_servings":4,"category":"mains","cook_minutes":15,"difficulty":3.5,"id":"yangnyeom-galbi","illustration":"assets/illust/yangnyeom-galbi-hero.png","ingredients":[{"img":"la-galbi","name":{"en":"LA galbi (beef short ribs, flanken-cut)","kr":"LA 갈비"},"note":{"en":"about 2.2 lb"},"quantity":1,"unit":"kg"},{"img":"green-onion-chopped","name":{"en":"Chopped green onion","kr":"다진 대파"},"note":{"en":"about 80 g"},"quantity":1,"unit":"cup"},{"img":"sugar","name":{"en":"Sugar","kr":"설탕"},"quantity":0.5,"unit":"cup"},{"img":"corn-syrup","name":{"en":"Corn syrup (mulyeot)","kr":"물엿"},"quantity":0.25,"unit":"cup"},{"img":"garlic-minced","name":{"en":"Minced garlic","kr":"간마늘"},"quantity":0.25,"unit":"cup"},{"img":"cooking-wine","name":{"en":"Cooking wine (mat-sul)","kr":"맛술"},"quantity":0.5,"unit":"cup"},{"img":"ginger-minced","name":{"en":"Grated ginger","kr":"간생강"},"quantity":0.5,"unit":"tsp"},{"img":"black-pepper","name":{"en":"Black pepper","kr":"후추"},"quantity":0.5,"unit":"tsp"},{"img":"water","name":{"en":"Water","kr":"물"},"note":{"en":"or 2 cups water + 1 cup ground Korean pear"},"quantity":3,"unit":"cup"},{"img":"sesame-oil","name":{"en":"Sesame oil","kr":"참기름"},"quantity":2,"unit":"tbsp"}],"nutrition":{"carbs_g":42,"fat_g":32,"kcal":620,"protein_g":38},"prep_minutes":30,"rest_minutes":1440,"tags":["Sweet & savory","Caramelized edges","Korean BBQ classic","Make-ahead marinade"],"text":{"en":{"steps":[{"img":"assets/illust/steps/galbi-step-1.png","text":"Soak the LA galbi in water for 30 minutes to 1 hour. This draws out the blood and removes impurities like bone dust."},{"img":"assets/illust/steps/galbi-step-2.png","text":"Lift the ribs out of the water and rinse thoroughly under running water, scrubbing especially around the bones."},{"img":"assets/illust/steps/galbi-step-3.png","text":"Drain the rinsed ribs in a colander and shake off excess water."},{"img":"assets/illust/steps/galbi-step-4.png","text":"Make the marinade: combine the green onion, sugar, corn syrup, garlic, cooking wine, ginger, pepper, and sesame oil with the water (or water plus pear juice). Stir well until the sugar and syrup are fully dissolved."},{"img":"assets/illust/steps/galbi-step-5.png","text":"In a roomy container, lay the drained ribs in layers, pouring marinade over each layer so every piece is evenly submerged."},{"img":"assets/illust/steps/galbi-step-6.png","text":"Press the ribs down into the marinade, cover, and refrigerate for about a day to marinate."},{"img":"assets/illust/steps/galbi-step-7.png","text":"Spread the marinated ribs in a wide frying pan and spoon about 1 tablespoon of reserved marinade over each row of ribs (about 4 tablespoons for 4 rows). The extra liquid keeps the sweet marinade from burning before the meat cooks through."},{"img":"assets/illust/steps/galbi-step-8.png","text":"Cover with a lid and cook over medium heat, flipping the ribs every 3 to 5 minutes. The trapped steam cooks the meat through while protecting the surface from burning."},{"img":"assets/illust/steps/galbi-step-9.png","text":"Once the meat is mostly cooked, uncover and sear over high heat, letting the marinade reduce and glaze the ribs."},{"img":"assets/illust/steps/galbi-step-10.png","text":"Cut the well-browned ribs into bite-size pieces and serve."}]}}}
+{
+ "about_dish": {
+  "full": "In Korea, galbi is celebration food. These cross-cut beef short ribs soak up a sweet-savory marinade of pear, garlic, and soy, then hit the pan where the sugars caramelize into a glossy, charred glaze. The trick is in the two-stage sear: steam first under a lid so the meat cooks through without burning, then finish over high heat to reduce the marinade into a sticky coating.",
+  "preview": "In Korea, galbi is celebration food. Cross-cut beef short ribs marinated in a sweet-savory blend, then seared until the edges caramelize."
+ },
+ "base_servings": 4,
+ "category": "mains",
+ "cook_minutes": 15,
+ "difficulty": 3.5,
+ "id": "yangnyeom-galbi",
+ "illustration": "assets/illust/yangnyeom-galbi-hero.png",
+ "ingredients": [
+  {
+   "img": "la-galbi",
+   "name": {
+    "en": "LA galbi (beef short ribs, flanken-cut)",
+    "kr": "LA 갈비"
+   },
+   "note": {
+    "en": "about 2.2 lb"
+   },
+   "quantity": 1,
+   "unit": "kg"
+  },
+  {
+   "img": "green-onion-chopped",
+   "name": {
+    "en": "Chopped green onion",
+    "kr": "다진 대파"
+   },
+   "note": {
+    "en": "about 80 g"
+   },
+   "quantity": 1,
+   "unit": "cup"
+  },
+  {
+   "img": "sugar",
+   "name": {
+    "en": "Sugar",
+    "kr": "설탕"
+   },
+   "quantity": 0.5,
+   "unit": "cup"
+  },
+  {
+   "img": "corn-syrup",
+   "name": {
+    "en": "Corn syrup (mulyeot)",
+    "kr": "물엿"
+   },
+   "quantity": 0.25,
+   "unit": "cup"
+  },
+  {
+   "img": "garlic-minced",
+   "name": {
+    "en": "Minced garlic",
+    "kr": "간마늘"
+   },
+   "quantity": 0.25,
+   "unit": "cup"
+  },
+  {
+   "img": "cooking-wine",
+   "name": {
+    "en": "Cooking wine (mat-sul)",
+    "kr": "맛술"
+   },
+   "quantity": 0.5,
+   "unit": "cup"
+  },
+  {
+   "img": "ginger-minced",
+   "name": {
+    "en": "Grated ginger",
+    "kr": "간생강"
+   },
+   "quantity": 0.5,
+   "unit": "tsp"
+  },
+  {
+   "img": "black-pepper",
+   "name": {
+    "en": "Black pepper",
+    "kr": "후추"
+   },
+   "quantity": 0.5,
+   "unit": "tsp"
+  },
+  {
+   "img": "water",
+   "name": {
+    "en": "Water",
+    "kr": "물"
+   },
+   "note": {
+    "en": "or 2 cups water + 1 cup ground Korean pear"
+   },
+   "quantity": 3,
+   "unit": "cup"
+  },
+  {
+   "img": "sesame-oil",
+   "name": {
+    "en": "Sesame oil",
+    "kr": "참기름"
+   },
+   "quantity": 2,
+   "unit": "tbsp"
+  }
+ ],
+ "nutrition": {
+  "carbs_g": 42,
+  "fat_g": 32,
+  "kcal": 620,
+  "protein_g": 38
+ },
+ "prep_minutes": 30,
+ "rest_minutes": 1440,
+ "tags": [
+  "Sweet & savory",
+  "Caramelized edges",
+  "Korean BBQ classic",
+  "Make-ahead marinade"
+ ],
+ "text": {
+  "en": {
+   "steps": [
+    {
+     "img": "assets/illust/steps/galbi-step-1.png",
+     "text": "Soak the LA galbi in water for 30 minutes to 1 hour. This draws out the blood and removes impurities like bone dust."
+    },
+    {
+     "img": "assets/illust/steps/galbi-step-2.png",
+     "text": "Lift the ribs out of the water and rinse thoroughly under running water, scrubbing especially around the bones."
+    },
+    {
+     "img": "assets/illust/steps/galbi-step-3.png",
+     "text": "Drain the rinsed ribs in a colander and shake off excess water."
+    },
+    {
+     "img": "assets/illust/steps/galbi-step-4.png",
+     "text": "Make the marinade: combine the green onion, sugar, corn syrup, garlic, cooking wine, ginger, pepper, and sesame oil with the water (or water plus pear juice). Stir well until the sugar and syrup are fully dissolved."
+    },
+    {
+     "img": "assets/illust/steps/galbi-step-5.png",
+     "text": "In a roomy container, lay the drained ribs in layers, pouring marinade over each layer so every piece is evenly submerged."
+    },
+    {
+     "img": "assets/illust/steps/galbi-step-6.png",
+     "text": "Press the ribs down into the marinade, cover, and refrigerate for about a day to marinate."
+    },
+    {
+     "img": "assets/illust/steps/galbi-step-7.png",
+     "text": "Spread the marinated ribs in a wide frying pan and spoon about 1 tablespoon of reserved marinade over each row of ribs (about 4 tablespoons for 4 rows). The extra liquid keeps the sweet marinade from burning before the meat cooks through."
+    },
+    {
+     "img": "assets/illust/steps/galbi-step-8.png",
+     "text": "Cover with a lid and cook over medium heat, flipping the ribs every 3 to 5 minutes. The trapped steam cooks the meat through while protecting the surface from burning."
+    },
+    {
+     "img": "assets/illust/steps/galbi-step-9.png",
+     "text": "Once the meat is mostly cooked, uncover and sear over high heat, letting the marinade reduce and glaze the ribs."
+    },
+    {
+     "img": "assets/illust/steps/galbi-step-10.png",
+     "text": "Cut the well-browned ribs into bite-size pieces and serve."
+    }
+   ],
+   "title": "Yangnyeom Galbi",
+   "title_sub": "양념갈비 · Sweet-Savory Marinated Short Ribs",
+   "story": "In my family, galbi meant a special occasion — birthdays, holidays, the kind of dinner where everyone shows up on time. The marinade is where the magic happens: sweet pear, garlic, and soy soaking into the meat overnight until every bite tastes like the sauce. The trick I learned the hard way is the two-stage sear. Steam the ribs under a lid first so they cook through without the sugars burning, then blast them over high heat to reduce the marinade into a sticky, caramelized glaze. My first attempt skipped the lid and the outside charred before the inside was done. Never again.",
+   "mistakes": [
+    "Skipping the soak. The ribs need 30 minutes to an hour in water to draw out the blood and bone dust — skip it and the marinade tastes muddy.",
+    "Searing over high heat from the start. The sweet marinade burns before the meat cooks through. Lid on, medium heat first to steam, then high heat to glaze.",
+    "Not reserving marinade for the pan. Spooning a little extra over the ribs in the pan keeps the sauce from scorching and gives you that glossy finish."
+   ]
+  }
+ }
+}

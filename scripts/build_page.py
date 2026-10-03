@@ -129,6 +129,7 @@ def build(recipe_path: str, out_path: str) -> None:
     template = (ROOT / "prototype" / "template.html").read_text(encoding="utf-8")
     subs = {
         "__HERO__": hero,
+        "__HERO_ALT__": esc(T["title"]),
         "__TITLE__": esc(T["title"]),
         "__CHIPS__": chips,
         "__ABOUT_PREVIEW__": esc(recipe["about_dish"]["preview"]),
