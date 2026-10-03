@@ -1,1 +1,245 @@
-{"about_dish":{"full":"Jjukkumi — tiny Korean baby octopus — is the kind of ingredient that scares people until they taste it. The trick is the blanch: one minute in boiling water with a splash of soju, and the fishy smell is gone, leaving sweet, bouncy bites. Tossed with thin-sliced pork belly in a gochujang-based sauce that's been resting for an hour, then finished over screaming high heat with perilla leaves wilting into the mix. This is drinking food at its finest — spicy, savory, and dangerously good with cold beer.","preview":"Tiny Korean baby octopus and thin-sliced pork belly stir-fried in a spicy gochujang sauce. Blanch the jjukkumi first, sear the pork, then bring it all together over high heat."},"base_servings":4,"category":"mains","cook_minutes":15,"difficulty":4.5,"id":"jjukkumi-samgyeopsal-bokkeum","illustration":"assets/illust/jjukkumi-hero.png","ingredients":[{"img":"baby-octopus","name":{"en":"Baby octopus (jjukkumi)","kr":"쭈꾸미"},"note":{"en":"about 14 oz"},"quantity":400,"unit":"g"},{"img":"pork-belly-thin","name":{"en":"Thin-sliced pork belly (daepae samgyeopsal)","kr":"대패삼겹살"},"note":{"en":"about 14 oz"},"quantity":400,"unit":"g"},{"img":"green-onion-chopped","name":{"en":"Green onion","kr":"대파"},"note":{"en":"2/3 stalk, diagonal cut"},"quantity":0.67,"unit":"stalk"},{"img":"yellow-onion","name":{"en":"Onion","kr":"양파"},"note":{"en":"1/4, sliced"},"quantity":0.25,"unit":""},{"img":"cheongyang-chili","name":{"en":"Cheongyang chili","kr":"청양고추"},"note":{"en":"2, minced"},"quantity":2,"unit":""},{"img":"perilla-leaves","name":{"en":"Perilla leaves (kkaennip)","kr":"깻잎"},"note":{"en":"10 leaves"},"quantity":10,"unit":"leaves"},{"img":"garlic","name":{"en":"Garlic","kr":"마늘"},"note":{"en":"5 cloves"},"quantity":5,"unit":"cloves"},{"img":"soy-sauce","name":{"en":"Soy sauce","kr":"간장"},"quantity":1,"unit":"tbsp"},{"img":"oyster-sauce","name":{"en":"Oyster sauce","kr":"굴소스"},"quantity":1,"unit":"tbsp"},{"img":"chili-flakes","name":{"en":"Korean chili flakes (gochugaru)","kr":"고추가루"},"quantity":3,"unit":"tbsp"},{"img":"corn-syrup","name":{"en":"Corn syrup (mulyeot)","kr":"물엿"},"quantity":2,"unit":"tbsp"},{"img":"gochujang","name":{"en":"Gochujang (Korean chili paste)","kr":"고추장"},"quantity":1.5,"unit":"tbsp"},{"img":"black-pepper","name":{"en":"Black pepper","kr":"후추"},"note":{"en":"to taste"},"quantity":1,"unit":"pinch"},{"img":"garlic-minced","name":{"en":"Minced garlic","kr":"다진마늘"},"quantity":1,"unit":"tbsp"}],"nutrition":{"carbs_g":28,"fat_g":35,"kcal":580,"protein_g":32},"prep_minutes":30,"rest_minutes":60,"tags":["Spicy","Korean pub food","Stir-fry","Drinking food"],"text":{"en":{"mistakes":["Skipping the flour rub on the octopus. The suckers trap grit — a tablespoon of flour massaged in and rinsed off makes all the difference.","Overcooking the jjukkumi. One minute in boiling water is enough. Any longer and it turns rubbery.","Adding the vegetables too early. They go in last, over high heat for just a minute, so they stay crisp and the perilla leaves just wilt."],"steps":[{"img":"assets/illust/steps/jjukkumi-step-1.png","text":"Make the sauce: combine the soy sauce, oyster sauce, chili flakes, corn syrup, gochujang, pepper, and minced garlic in a small bowl. Mix well until smooth."},{"img":"assets/illust/steps/jjukkumi-step-2.png","text":"Rest the mixed sauce in the refrigerator for about 1 hour to let the flavors meld."},{"img":"assets/illust/steps/jjukkumi-step-3.png","text":"Slice the onion to a moderate thickness."},{"img":"assets/illust/steps/jjukkumi-step-4.png","text":"Cut the green onion diagonally (eoseot-sseolgi)."},{"img":"assets/illust/steps/jjukkumi-step-5.png","text":"Mince the cheongyang chilies finely."},{"img":"assets/illust/steps/jjukkumi-step-6.png","text":"Cut the perilla leaves into bite-size pieces."},{"img":"assets/illust/steps/jjukkumi-step-7.png","text":"Clean the baby octopus: add a tablespoon of flour and massage it in, then rinse under water. (Octopus suckers trap grit, so the flour rub cleans them well.)"},{"badge":"1m","img":"assets/illust/steps/jjukkumi-step-8.png","text":"Blanch the octopus in boiling water with a shot of cheongju or soju for 1 minute. (The alcohol removes the fishy smell.)"},{"img":"assets/illust/steps/jjukkumi-step-9.png","text":"Drain the blanched octopus and cut into bite-size pieces — halve the heads, cut the legs into 2–3 pieces."},{"img":"assets/illust/steps/jjukkumi-step-10.png","text":"Place the cut octopus in a bowl and toss with 3 tablespoons of the rested sauce. (Wearing cooking gloves and mixing by hand is easiest.)"},{"img":"assets/illust/steps/jjukkumi-step-11.png","text":"Heat a round wok over high heat and sear the thin-sliced pork belly until golden. (Adding 1 tablespoon of sugar while searing boosts the umami.) Splash in a shot of cheongju or soju to tame any porky smell."},{"img":"assets/illust/steps/jjukkumi-step-12.png","text":"Once the pork is cooked, reduce to medium-low heat. Add the seasoned octopus plus 1 more tablespoon of sauce, and toss together."},{"img":"assets/illust/steps/jjukkumi-step-13.png","text":"Add all the prepared vegetables and stir-fry over high heat for about 1 minute. Serve immediately."}],"story":"Jjukkumi was my gateway to loving octopus. I'd only had rubbery nakji before, but a friend's mom made this stir-fry and the tiny octopuses were sweet and bouncy, not chewy at all. Her secret was the one-minute blanch — no more — and the sauce resting for a full hour before it ever touched the pan. The perilla leaves at the end are non-negotiable; they wilt into the spicy sauce and add this herbal freshness that cuts through the richness of the pork belly. I make this whenever friends come over with beer.","title":"Jjukkumi Samgyeopsal Bokkeum","title_sub":"쭈꾸미삼겹살볶음 · Spicy Baby Octopus & Pork Belly Stir-fry"}}}
+{
+  "about_dish": {
+    "full": "Jjukkumi — tiny Korean baby octopus — is the kind of ingredient that scares people until they taste it. The trick is the blanch: one minute in boiling water with a splash of soju, and the fishy smell is gone, leaving sweet, bouncy bites. Tossed with thin-sliced pork belly in a gochujang-based sauce that's been resting for an hour, then finished over screaming high heat with perilla leaves wilting into the mix. This is drinking food at its finest — spicy, savory, and dangerously good with cold beer.",
+    "preview": "Tiny Korean baby octopus and thin-sliced pork belly stir-fried in spicy gochujang sauce. Blanch, sear, then toss over high heat."
+  },
+  "base_servings": 4,
+  "category": "mains",
+  "cook_minutes": 15,
+  "difficulty": 4.5,
+  "id": "jjukkumi-samgyeopsal-bokkeum",
+  "illustration": "assets/illust/jjukkumi-hero.png",
+  "ingredients": [
+    {
+      "img": "baby-octopus",
+      "name": {
+        "en": "Baby octopus (jjukkumi)",
+        "kr": "쭈꾸미"
+      },
+      "note": {
+        "en": "about 14 oz"
+      },
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "img": "pork-belly-thin",
+      "name": {
+        "en": "Thin-sliced pork belly (daepae samgyeopsal)",
+        "kr": "대패삼겹살"
+      },
+      "note": {
+        "en": "about 14 oz"
+      },
+      "quantity": 400,
+      "unit": "g"
+    },
+    {
+      "img": "green-onion-chopped",
+      "name": {
+        "en": "Green onion",
+        "kr": "대파"
+      },
+      "note": {
+        "en": "2/3 stalk, diagonal cut"
+      },
+      "quantity": 0.67,
+      "unit": "stalk"
+    },
+    {
+      "img": "yellow-onion",
+      "name": {
+        "en": "Onion",
+        "kr": "양파"
+      },
+      "note": {
+        "en": "1/4, sliced"
+      },
+      "quantity": 0.25,
+      "unit": ""
+    },
+    {
+      "img": "cheongyang-chili",
+      "name": {
+        "en": "Cheongyang chili",
+        "kr": "청양고추"
+      },
+      "note": {
+        "en": "2, minced"
+      },
+      "quantity": 2,
+      "unit": ""
+    },
+    {
+      "img": "perilla-leaves",
+      "name": {
+        "en": "Perilla leaves (kkaennip)",
+        "kr": "깻잎"
+      },
+      "note": {
+        "en": "10 leaves"
+      },
+      "quantity": 10,
+      "unit": "leaves"
+    },
+    {
+      "img": "garlic",
+      "name": {
+        "en": "Garlic",
+        "kr": "마늘"
+      },
+      "note": {
+        "en": "5 cloves"
+      },
+      "quantity": 5,
+      "unit": "cloves"
+    },
+    {
+      "img": "soy-sauce",
+      "name": {
+        "en": "Soy sauce",
+        "kr": "간장"
+      },
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "img": "oyster-sauce",
+      "name": {
+        "en": "Oyster sauce",
+        "kr": "굴소스"
+      },
+      "quantity": 1,
+      "unit": "tbsp"
+    },
+    {
+      "img": "chili-flakes",
+      "name": {
+        "en": "Korean chili flakes (gochugaru)",
+        "kr": "고추가루"
+      },
+      "quantity": 3,
+      "unit": "tbsp"
+    },
+    {
+      "img": "corn-syrup",
+      "name": {
+        "en": "Corn syrup (mulyeot)",
+        "kr": "물엿"
+      },
+      "quantity": 2,
+      "unit": "tbsp"
+    },
+    {
+      "img": "gochujang",
+      "name": {
+        "en": "Gochujang (Korean chili paste)",
+        "kr": "고추장"
+      },
+      "quantity": 1.5,
+      "unit": "tbsp"
+    },
+    {
+      "img": "black-pepper",
+      "name": {
+        "en": "Black pepper",
+        "kr": "후추"
+      },
+      "note": {
+        "en": "to taste"
+      },
+      "quantity": 1,
+      "unit": "pinch"
+    },
+    {
+      "img": "garlic-minced",
+      "name": {
+        "en": "Minced garlic",
+        "kr": "다진마늘"
+      },
+      "quantity": 1,
+      "unit": "tbsp"
+    }
+  ],
+  "nutrition": {
+    "carbs_g": 28,
+    "fat_g": 35,
+    "kcal": 580,
+    "protein_g": 32
+  },
+  "prep_minutes": 30,
+  "rest_minutes": 60,
+  "tags": [
+    "Spicy",
+    "Korean pub food",
+    "Stir-fry",
+    "Drinking food"
+  ],
+  "text": {
+    "en": {
+      "mistakes": [
+        "Skipping the flour rub on the octopus. The suckers trap grit — a tablespoon of flour massaged in and rinsed off makes all the difference.",
+        "Overcooking the jjukkumi. One minute in boiling water is enough. Any longer and it turns rubbery.",
+        "Adding the vegetables too early. They go in last, over high heat for just a minute, so they stay crisp and the perilla leaves just wilt."
+      ],
+      "steps": [
+        {
+          "img": "assets/illust/steps/jjukkumi-step-1.png",
+          "text": "Make the sauce: combine the soy sauce, oyster sauce, chili flakes, corn syrup, gochujang, pepper, and minced garlic in a small bowl. Mix well until smooth."
+        },
+        {
+          "img": "assets/illust/steps/jjukkumi-step-2.png",
+          "text": "Rest the mixed sauce in the refrigerator for about 1 hour to let the flavors meld."
+        },
+        {
+          "img": "assets/illust/steps/jjukkumi-step-3.png",
+          "text": "Slice the onion to a moderate thickness."
+        },
+        {
+          "img": "assets/illust/steps/jjukkumi-step-4.png",
+          "text": "Cut the green onion diagonally (eoseot-sseolgi)."
+        },
+        {
+          "img": "assets/illust/steps/jjukkumi-step-5.png",
+          "text": "Mince the cheongyang chilies finely."
+        },
+        {
+          "img": "assets/illust/steps/jjukkumi-step-6.png",
+          "text": "Cut the perilla leaves into bite-size pieces."
+        },
+        {
+          "img": "assets/illust/steps/jjukkumi-step-7.png",
+          "text": "Clean the baby octopus: add a tablespoon of flour and massage it in, then rinse under water. (Octopus suckers trap grit, so the flour rub cleans them well.)"
+        },
+        {
+          "badge": "1m",
+          "img": "assets/illust/steps/jjukkumi-step-8.png",
+          "text": "Blanch the octopus in boiling water with a shot of cheongju or soju for 1 minute. (The alcohol removes the fishy smell.)"
+        },
+        {
+          "img": "assets/illust/steps/jjukkumi-step-9.png",
+          "text": "Drain the blanched octopus and cut into bite-size pieces — halve the heads, cut the legs into 2–3 pieces."
+        },
+        {
+          "img": "assets/illust/steps/jjukkumi-step-10.png",
+          "text": "Place the cut octopus in a bowl and toss with 3 tablespoons of the rested sauce. (Wearing cooking gloves and mixing by hand is easiest.)"
+        },
+        {
+          "img": "assets/illust/steps/jjukkumi-step-11.png",
+          "text": "Heat a round wok over high heat and sear the thin-sliced pork belly until golden. (Adding 1 tablespoon of sugar while searing boosts the umami.) Splash in a shot of cheongju or soju to tame any porky smell."
+        },
+        {
+          "img": "assets/illust/steps/jjukkumi-step-12.png",
+          "text": "Once the pork is cooked, reduce to medium-low heat. Add the seasoned octopus plus 1 more tablespoon of sauce, and toss together."
+        },
+        {
+          "img": "assets/illust/steps/jjukkumi-step-13.png",
+          "text": "Add all the prepared vegetables and stir-fry over high heat for about 1 minute. Serve immediately."
+        }
+      ],
+      "story": "Jjukkumi was my gateway to loving octopus. I'd only had rubbery nakji before, but a friend's mom made this stir-fry and the tiny octopuses were sweet and bouncy, not chewy at all. Her secret was the one-minute blanch — no more — and the sauce resting for a full hour before it ever touched the pan. The perilla leaves at the end are non-negotiable; they wilt into the spicy sauce and add this herbal freshness that cuts through the richness of the pork belly. I make this whenever friends come over with beer.",
+      "title": "Jjukkumi Samgyeopsal Bokkeum",
+      "title_sub": "쭈꾸미삼겹살볶음 · Spicy Baby Octopus & Pork Belly Stir-fry"
+    }
+  }
+}
