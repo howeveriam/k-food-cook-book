@@ -141,12 +141,12 @@
       "steps": [
         {
           "img": "assets/illust/steps/galbi-step-1.png",
-          "text": "Soak the LA galbi in water for 30 minutes to 1 hour. This draws out the blood and removes impurities like bone dust.",
-          "video": "../assets/video/galbi/galbi-step-1.mp4"
+          "text": "Soak the LA galbi in water for 30 minutes to 1 hour. This draws out the blood and removes impurities like bone dust."
         },
         {
           "img": "assets/illust/steps/galbi-step-2.png",
-          "text": "Lift the ribs out of the water and rinse thoroughly under running water, scrubbing especially around the bones."
+          "text": "Lift the ribs out of the water and rinse thoroughly under running water, scrubbing especially around the bones.",
+          "video": "../assets/video/galbi/galbi-step-2.mp4"
         },
         {
           "img": "assets/illust/steps/galbi-step-3.png",
