@@ -92,10 +92,7 @@ def build(recipe_path: str, out_path: str) -> None:
     def ing_row(ing):
         qty = fmt_qty(ing["quantity"])
         unit = f' {ing["unit"]}' if ing["unit"] else ""
-        # Figma display strings; preserve complete source data in recipe JSON.
-        names = {"green-onion-roots": "Green onion roots (optional)",
-                 "garlic": "Garlic (about 10 cloves)"}
-        name = names.get(ing.get("img"), ing["name"]["en"])
+        name = ing["name"]["en"]
         thumb = ing_imgs.get(ing.get("img"), "")
         img = f'<img src="{thumb}" alt="">' if thumb else ""
         return (
