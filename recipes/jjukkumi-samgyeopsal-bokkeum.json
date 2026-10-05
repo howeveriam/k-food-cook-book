@@ -185,56 +185,69 @@
       "steps": [
         {
           "img": "assets/illust/steps/jjukkumi-step-1-v2.png",
-          "text": "Make the sauce: combine the soy sauce, oyster sauce, chili flakes, corn syrup, gochujang, pepper, and minced garlic in a small bowl. Mix well until smooth."
+          "text": "Make the sauce: combine the soy sauce, oyster sauce, chili flakes, corn syrup, gochujang, pepper, and minced garlic in a small bowl. Mix well until smooth.",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-1.mp4"
         },
         {
           "img": "assets/illust/steps/jjukkumi-step-2-v4.png",
-          "text": "Rest the mixed sauce in the refrigerator for about 1 hour to let the flavors meld."
+          "text": "Rest the mixed sauce in the refrigerator for about 1 hour to let the flavors meld.",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-2.mp4"
         },
         {
           "img": "assets/illust/steps/jjukkumi-step-3-v3.png",
-          "text": "Slice the onion to a moderate thickness."
+          "text": "Slice the onion to a moderate thickness.",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-3.mp4"
         },
         {
           "img": "assets/illust/steps/jjukkumi-step-4-v3.png",
-          "text": "Cut the green onion diagonally (eoseot-sseolgi)."
+          "text": "Cut the green onion diagonally (eoseot-sseolgi).",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-4.mp4"
         },
         {
           "img": "assets/illust/steps/jjukkumi-step-5-v3.png",
-          "text": "Mince the cheongyang chilies finely."
+          "text": "Mince the cheongyang chilies finely.",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-5.mp4"
         },
         {
           "img": "assets/illust/steps/jjukkumi-step-6-v3.png",
-          "text": "Cut the perilla leaves into bite-size pieces."
+          "text": "Cut the perilla leaves into bite-size pieces.",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-6.mp4"
         },
         {
           "img": "assets/illust/steps/jjukkumi-step-7-v2.png",
-          "text": "Clean the baby octopus: add a tablespoon of flour and massage it in, then rinse under water. (Octopus suckers trap grit, so the flour rub cleans them well.)"
+          "text": "Clean the baby octopus: add a tablespoon of flour and massage it in, then rinse under water. (Octopus suckers trap grit, so the flour rub cleans them well.)",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-7.mp4"
         },
         {
           "badge": "1m",
           "img": "assets/illust/steps/jjukkumi-step-8-v2.png",
-          "text": "Blanch the octopus in boiling water with a shot of cheongju or soju for 1 minute. (The alcohol removes the fishy smell.)"
+          "text": "Blanch the octopus in boiling water with a shot of cheongju or soju for 1 minute. (The alcohol removes the fishy smell.)",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-8.mp4"
         },
         {
           "img": "assets/illust/steps/jjukkumi-step-9-v3.png",
-          "text": "Drain the blanched octopus and cut into bite-size pieces — halve the heads, cut the legs into 2–3 pieces."
+          "text": "Drain the blanched octopus and cut into bite-size pieces — halve the heads, cut the legs into 2–3 pieces.",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-9.mp4"
         },
         {
           "img": "assets/illust/steps/jjukkumi-step-10-v2.png",
-          "text": "Place the cut octopus in a bowl and toss with 3 tablespoons of the rested sauce. (Wearing cooking gloves and mixing by hand is easiest.)"
+          "text": "Place the cut octopus in a bowl and toss with 3 tablespoons of the rested sauce. (Wearing cooking gloves and mixing by hand is easiest.)",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-10.mp4"
         },
         {
           "img": "assets/illust/steps/jjukkumi-step-11-v3.png",
-          "text": "Heat a round wok over high heat and sear the thin-sliced pork belly until golden. (Adding 1 tablespoon of sugar while searing boosts the umami.) Splash in a shot of cheongju or soju to tame any porky smell."
+          "text": "Heat a round wok over high heat and sear the thin-sliced pork belly until golden. (Adding 1 tablespoon of sugar while searing boosts the umami.) Splash in a shot of cheongju or soju to tame any porky smell.",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-11.mp4"
         },
         {
           "img": "assets/illust/steps/jjukkumi-step-12-v3.png",
-          "text": "Once the pork is cooked, reduce to medium-low heat. Add the seasoned octopus plus 1 more tablespoon of sauce, and toss together."
+          "text": "Once the pork is cooked, reduce to medium-low heat. Add the seasoned octopus plus 1 more tablespoon of sauce, and toss together.",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-12.mp4"
         },
         {
           "img": "assets/illust/steps/jjukkumi-step-13-v4.png",
-          "text": "Add all the prepared vegetables and stir-fry over high heat for about 1 minute. Serve immediately."
+          "text": "Add all the prepared vegetables and stir-fry over high heat for about 1 minute. Serve immediately.",
+          "video": "assets/video/jjukkumi/cropped/jjukkumi-step-13.mp4"
         }
       ],
       "story": "Jjukkumi was my gateway to loving octopus. I'd only had rubbery nakji before, but a friend's mom made this stir-fry and the tiny octopuses were sweet and bouncy, not chewy at all. Her secret was the one-minute blanch — no more — and the sauce resting for a full hour before it ever touched the pan. The perilla leaves at the end are non-negotiable; they wilt into the spicy sauce and add this herbal freshness that cuts through the richness of the pork belly. I make this whenever friends come over with beer.",

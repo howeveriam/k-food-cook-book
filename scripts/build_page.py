@@ -10,6 +10,7 @@ import base64
 import html as htmlmod
 import io
 import json
+import os
 import pathlib
 import sys
 
@@ -82,9 +83,18 @@ def build(recipe_path: str, out_path: str) -> None:
         im = Image.open(p).convert("RGB").resize((160, 160), Image.LANCZOS)
         ing_imgs[slug] = _datauri(im, 70)
     recipe["_images"] = {"steps": step_imgs, "ingredients": ing_imgs}
-    recipe["_videos"] = {
-        str(i): s["video"] for i, s in enumerate(T["steps"]) if s.get("video")
-    }
+    # 비디오는 파일로 참조 (data URI는 너무 큼). 출력 HTML 기준 상대경로로 변환.
+    out_dir = pathlib.Path(out_path).parent
+    videos = {}
+    for i, s in enumerate(T["steps"]):
+        v = s.get("video")
+        if not v:
+            continue
+        vpath = ROOT / v
+        if vpath.exists():
+            rel = os.path.relpath(vpath, out_dir)
+            videos[str(i)] = rel
+    recipe["_videos"] = videos
 
     # 본문 미리 렌더링
     chips = "".join(
