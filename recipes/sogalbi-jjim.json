@@ -236,69 +236,84 @@
       "steps": [
         {
           "img": "assets/illust/steps/sogalbi-step-1-32.png",
-          "text": "Rinse the short ribs clean in cold water."
+          "text": "Rinse the short ribs clean in cold water.",
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-1.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-2-v5.png",
-          "text": "Place the rinsed ribs in a large pot, pour in enough water to cover them, and bring to a boil."
+          "text": "Place the rinsed ribs in a large pot, pour in enough water to cover them, and bring to a boil.",
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-2.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-3.png",
-          "text": "Once boiling, lift the ribs out and rinse them again thoroughly under running water."
+          "text": "Once boiling, lift the ribs out and rinse them again thoroughly under running water.",
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-3.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-4.png",
-          "text": "Drain the rinsed ribs in a colander and shake off the excess water."
+          "text": "Drain the rinsed ribs in a colander and shake off the excess water.",
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-4.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-5.png",
-          "text": "Make the braising sauce: combine the chopped green onion, soy sauce, brown sugar, cooking wine, water, garlic, ginger, pepper, and sesame oil in a bowl. Stir until the sugar is fully dissolved."
+          "text": "Make the braising sauce: combine the chopped green onion, soy sauce, brown sugar, cooking wine, water, garlic, ginger, pepper, and sesame oil in a bowl. Stir until the sugar is fully dissolved.",
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-5.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-6.png",
-          "text": "Put the drained ribs and the braising sauce in the large pot, then pour in 1 liter of water."
+          "text": "Put the drained ribs and the braising sauce in the large pot, then pour in 1 liter of water.",
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-6.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-7.png",
           "text": "Bring the pot to a boil over high heat and cook for 1 hour.",
-          "timer_minutes": 60
+          "timer_minutes": 60,
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-7.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-8.png",
-          "text": "While it boils, prep the vegetables: cut the radish into flat squares (nabak), cut the carrot into generous 5 cm chunks, cut the mushrooms into large bite-size pieces, and cut the onion into 3–5 cm chunks."
+          "text": "While it boils, prep the vegetables: cut the radish into flat squares (nabak), cut the carrot into generous 5 cm chunks, cut the mushrooms into large bite-size pieces, and cut the onion into 3–5 cm chunks.",
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-8.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-9.png",
-          "text": "As it boils, skim off the foam and impurities that rise to the surface with a spoon."
+          "text": "As it boils, skim off the foam and impurities that rise to the surface with a spoon.",
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-9.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-10.png",
           "text": "After 1 hour, add the radish and cook for 15 minutes.",
-          "timer_minutes": 15
+          "timer_minutes": 15,
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-10.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-11.png",
           "text": "Add the carrot and cook for 10 minutes.",
-          "timer_minutes": 10
+          "timer_minutes": 10,
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-11.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-12.png",
           "text": "Add the mushrooms and cook for 10 minutes.",
-          "timer_minutes": 10
+          "timer_minutes": 10,
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-12.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-13.png",
           "text": "Add the onion and cook for 5 more minutes.",
-          "timer_minutes": 5
+          "timer_minutes": 5,
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-13.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-14.png",
           "text": "When the onion turns translucent, add the peppers and green onion, cook for 3 minutes, then turn off the heat.",
-          "timer_minutes": 3
+          "timer_minutes": 3,
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-14.mp4"
         },
         {
           "img": "assets/illust/steps/sogalbi-step-15.png",
-          "text": "Cover with the lid and let it rest for 10 minutes before serving."
+          "text": "Cover with the lid and let it rest for 10 minutes before serving.",
+          "video": "assets/video/sogalbi_16x9/sogalbi-step-15.mp4"
         }
       ],
       "story": "Sogalbi jjim is what my family makes when everyone comes home — the pot alone is the centerpiece. The first time I made it, I skipped the parboil to save time, and the broth turned cloudy with a gamey edge I couldn't fix. Now I never skip it: boil once, rinse clean, and the second simmer rewards you with a clear, glossy sauce and meat that falls off the bone.",
